@@ -1,0 +1,5430 @@
+[
+  {
+    "inputs": [
+      "water",
+      "fire"
+    ],
+    "output": "steam"
+  },
+  {
+    "inputs": [
+      "earth",
+      "fire"
+    ],
+    "output": "lava"
+  },
+  {
+    "inputs": [
+      "earth",
+      "water"
+    ],
+    "output": "mud"
+  },
+  {
+    "inputs": [
+      "earth",
+      "air"
+    ],
+    "output": "dust"
+  },
+  {
+    "inputs": [
+      "earth",
+      "earth"
+    ],
+    "output": "sand"
+  },
+  {
+    "inputs": [
+      "water",
+      "cold"
+    ],
+    "output": "ice"
+  },
+  {
+    "inputs": [
+      "water",
+      "air"
+    ],
+    "output": "rain"
+  },
+  {
+    "inputs": [
+      "air",
+      "air"
+    ],
+    "output": "wind"
+  },
+  {
+    "inputs": [
+      "steam",
+      "air"
+    ],
+    "output": "cloud"
+  },
+  {
+    "inputs": [
+      "fire",
+      "wood"
+    ],
+    "output": "smoke"
+  },
+  {
+    "inputs": [
+      "mud",
+      "fire"
+    ],
+    "output": "clay"
+  },
+  {
+    "inputs": [
+      "fire",
+      "fire"
+    ],
+    "output": "heat"
+  },
+  {
+    "inputs": [
+      "fire",
+      "night"
+    ],
+    "output": "light"
+  },
+  {
+    "inputs": [
+      "air",
+      "cold"
+    ],
+    "output": "cold"
+  },
+  {
+    "inputs": [
+      "earth",
+      "night"
+    ],
+    "output": "night"
+  },
+  {
+    "inputs": [
+      "earth",
+      "stone"
+    ],
+    "output": "mountain"
+  },
+  {
+    "inputs": [
+      "mountain",
+      "water"
+    ],
+    "output": "river"
+  },
+  {
+    "inputs": [
+      "water",
+      "water"
+    ],
+    "output": "ocean"
+  },
+  {
+    "inputs": [
+      "lava",
+      "stone"
+    ],
+    "output": "volcano"
+  },
+  {
+    "inputs": [
+      "river",
+      "earth"
+    ],
+    "output": "swamp"
+  },
+  {
+    "inputs": [
+      "sand",
+      "heat"
+    ],
+    "output": "desert"
+  },
+  {
+    "inputs": [
+      "tree",
+      "tree"
+    ],
+    "output": "forest"
+  },
+  {
+    "inputs": [
+      "forest",
+      "rain"
+    ],
+    "output": "jungle"
+  },
+  {
+    "inputs": [
+      "ice",
+      "mountain"
+    ],
+    "output": "glacier"
+  },
+  {
+    "inputs": [
+      "cloud",
+      "lightning"
+    ],
+    "output": "storm"
+  },
+  {
+    "inputs": [
+      "storm",
+      "air"
+    ],
+    "output": "lightning"
+  },
+  {
+    "inputs": [
+      "cloud",
+      "cold"
+    ],
+    "output": "fog"
+  },
+  {
+    "inputs": [
+      "cloud",
+      "ice"
+    ],
+    "output": "snow"
+  },
+  {
+    "inputs": [
+      "earth",
+      "heat"
+    ],
+    "output": "coal"
+  },
+  {
+    "inputs": [
+      "earth",
+      "pressure"
+    ],
+    "output": "oil"
+  },
+  {
+    "inputs": [
+      "lava",
+      "earth"
+    ],
+    "output": "magma"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "earth"
+    ],
+    "output": "island"
+  },
+  {
+    "inputs": [
+      "river",
+      "river"
+    ],
+    "output": "lake"
+  },
+  {
+    "inputs": [
+      "volcano",
+      "water"
+    ],
+    "output": "geyser"
+  },
+  {
+    "inputs": [
+      "water",
+      "cell"
+    ],
+    "output": "algae"
+  },
+  {
+    "inputs": [
+      "algae",
+      "earth"
+    ],
+    "output": "moss"
+  },
+  {
+    "inputs": [
+      "seed",
+      "earth"
+    ],
+    "output": "tree"
+  },
+  {
+    "inputs": [
+      "seed",
+      "water"
+    ],
+    "output": "flower"
+  },
+  {
+    "inputs": [
+      "seed",
+      "soil"
+    ],
+    "output": "grass"
+  },
+  {
+    "inputs": [
+      "tree",
+      "water"
+    ],
+    "output": "vine"
+  },
+  {
+    "inputs": [
+      "tree",
+      "earth"
+    ],
+    "output": "seed"
+  },
+  {
+    "inputs": [
+      "mushroom",
+      "earth"
+    ],
+    "output": "fungi"
+  },
+  {
+    "inputs": [
+      "algae",
+      "ocean"
+    ],
+    "output": "seaweed"
+  },
+  {
+    "inputs": [
+      "sand",
+      "desert"
+    ],
+    "output": "cactus"
+  },
+  {
+    "inputs": [
+      "mud",
+      "earth"
+    ],
+    "output": "soil"
+  },
+  {
+    "inputs": [
+      "moss",
+      "stone"
+    ],
+    "output": "fern"
+  },
+  {
+    "inputs": [
+      "tree",
+      "soil"
+    ],
+    "output": "root"
+  },
+  {
+    "inputs": [
+      "water",
+      "lightning"
+    ],
+    "output": "hydrogen"
+  },
+  {
+    "inputs": [
+      "charcoal",
+      "pressure"
+    ],
+    "output": "carbon"
+  },
+  {
+    "inputs": [
+      "grass",
+      "soil"
+    ],
+    "output": "grain"
+  },
+  {
+    "inputs": [
+      "water",
+      "grain"
+    ],
+    "output": "yeast"
+  },
+  {
+    "inputs": [
+      "oxygen",
+      "oxygen"
+    ],
+    "output": "ozone"
+  },
+  {
+    "inputs": [
+      "air",
+      "ozone"
+    ],
+    "output": "atmosphere"
+  },
+  {
+    "inputs": [
+      "soil",
+      "rain"
+    ],
+    "output": "worm"
+  },
+  {
+    "inputs": [
+      "stone",
+      "pressure"
+    ],
+    "output": "granite"
+  },
+  {
+    "inputs": [
+      "stone",
+      "water"
+    ],
+    "output": "limestone"
+  },
+  {
+    "inputs": [
+      "limestone",
+      "heat"
+    ],
+    "output": "chalk"
+  },
+  {
+    "inputs": [
+      "sand",
+      "pressure"
+    ],
+    "output": "quartz"
+  },
+  {
+    "inputs": [
+      "stone",
+      "fire"
+    ],
+    "output": "iron_ore"
+  },
+  {
+    "inputs": [
+      "stone",
+      "cold"
+    ],
+    "output": "silver_ore"
+  },
+  {
+    "inputs": [
+      "stone",
+      "stone"
+    ],
+    "output": "pressure"
+  },
+  {
+    "inputs": [
+      "iron_ore",
+      "water"
+    ],
+    "output": "rust"
+  },
+  {
+    "inputs": [
+      "tree",
+      "heat"
+    ],
+    "output": "resin"
+  },
+  {
+    "inputs": [
+      "clay",
+      "fire"
+    ],
+    "output": "brick"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "wind"
+    ],
+    "output": "wave"
+  },
+  {
+    "inputs": [
+      "soil",
+      "fungi"
+    ],
+    "output": "mushroom"
+  },
+  {
+    "inputs": [
+      "bacteria",
+      "water"
+    ],
+    "output": "amoeba"
+  },
+  {
+    "inputs": [
+      "plankton",
+      "ocean"
+    ],
+    "output": "fish"
+  },
+  {
+    "inputs": [
+      "fish",
+      "air"
+    ],
+    "output": "bird"
+  },
+  {
+    "inputs": [
+      "worm",
+      "earth"
+    ],
+    "output": "insect"
+  },
+  {
+    "inputs": [
+      "fish",
+      "earth"
+    ],
+    "output": "reptile"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "tree"
+    ],
+    "output": "mammal"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "knowledge"
+    ],
+    "output": "human"
+  },
+  {
+    "inputs": [
+      "bird",
+      "grass"
+    ],
+    "output": "egg"
+  },
+  {
+    "inputs": [
+      "turtle",
+      "ocean"
+    ],
+    "output": "shell"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "death"
+    ],
+    "output": "bone"
+  },
+  {
+    "inputs": [
+      "seed",
+      "rain"
+    ],
+    "output": "plant"
+  },
+  {
+    "inputs": [
+      "plant",
+      "death"
+    ],
+    "output": "compost"
+  },
+  {
+    "inputs": [
+      "flower",
+      "bee"
+    ],
+    "output": "pollen"
+  },
+  {
+    "inputs": [
+      "tree",
+      "seed"
+    ],
+    "output": "fruit"
+  },
+  {
+    "inputs": [
+      "plant",
+      "soil"
+    ],
+    "output": "vegetable"
+  },
+  {
+    "inputs": [
+      "plant",
+      "flower"
+    ],
+    "output": "herb"
+  },
+  {
+    "inputs": [
+      "grain",
+      "rain"
+    ],
+    "output": "wheat"
+  },
+  {
+    "inputs": [
+      "grain",
+      "sun"
+    ],
+    "output": "corn"
+  },
+  {
+    "inputs": [
+      "flower",
+      "water"
+    ],
+    "output": "tomato"
+  },
+  {
+    "inputs": [
+      "vine",
+      "sun"
+    ],
+    "output": "grape"
+  },
+  {
+    "inputs": [
+      "tree",
+      "oil"
+    ],
+    "output": "olive"
+  },
+  {
+    "inputs": [
+      "plant",
+      "cloud"
+    ],
+    "output": "cotton"
+  },
+  {
+    "inputs": [
+      "grass",
+      "rain"
+    ],
+    "output": "bamboo"
+  },
+  {
+    "inputs": [
+      "tree",
+      "stone"
+    ],
+    "output": "oak"
+  },
+  {
+    "inputs": [
+      "tree",
+      "mountain"
+    ],
+    "output": "pine"
+  },
+  {
+    "inputs": [
+      "tree",
+      "ocean"
+    ],
+    "output": "palm"
+  },
+  {
+    "inputs": [
+      "flower",
+      "lake"
+    ],
+    "output": "lily"
+  },
+  {
+    "inputs": [
+      "flower",
+      "fire"
+    ],
+    "output": "rose"
+  },
+  {
+    "inputs": [
+      "flower",
+      "sun"
+    ],
+    "output": "sunflower"
+  },
+  {
+    "inputs": [
+      "tree",
+      "swamp"
+    ],
+    "output": "mangrove"
+  },
+  {
+    "inputs": [
+      "bacteria",
+      "bacteria"
+    ],
+    "output": "bacteria_colony"
+  },
+  {
+    "inputs": [
+      "cell",
+      "cell"
+    ],
+    "output": "dna"
+  },
+  {
+    "inputs": [
+      "dna",
+      "water"
+    ],
+    "output": "protein"
+  },
+  {
+    "inputs": [
+      "bacteria",
+      "cell"
+    ],
+    "output": "virus"
+  },
+  {
+    "inputs": [
+      "algae",
+      "stone"
+    ],
+    "output": "coral"
+  },
+  {
+    "inputs": [
+      "plankton",
+      "fish"
+    ],
+    "output": "jellyfish"
+  },
+  {
+    "inputs": [
+      "fish",
+      "star"
+    ],
+    "output": "starfish"
+  },
+  {
+    "inputs": [
+      "fish",
+      "stone"
+    ],
+    "output": "lobster"
+  },
+  {
+    "inputs": [
+      "fish",
+      "grass"
+    ],
+    "output": "seahorse"
+  },
+  {
+    "inputs": [
+      "bird",
+      "ice"
+    ],
+    "output": "penguin"
+  },
+  {
+    "inputs": [
+      "bird",
+      "night"
+    ],
+    "output": "owl"
+  },
+  {
+    "inputs": [
+      "bird",
+      "tree"
+    ],
+    "output": "parrot"
+  },
+  {
+    "inputs": [
+      "bird",
+      "mountain"
+    ],
+    "output": "hawk"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "forest"
+    ],
+    "output": "deer"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "tree"
+    ],
+    "output": "monkey"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "desert"
+    ],
+    "output": "snake"
+  },
+  {
+    "inputs": [
+      "insect",
+      "flower"
+    ],
+    "output": "butterfly"
+  },
+  {
+    "inputs": [
+      "insect",
+      "honey"
+    ],
+    "output": "bee"
+  },
+  {
+    "inputs": [
+      "insect",
+      "earth"
+    ],
+    "output": "ant"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "swamp"
+    ],
+    "output": "frog"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "ocean"
+    ],
+    "output": "turtle"
+  },
+  {
+    "inputs": [
+      "fish",
+      "ocean"
+    ],
+    "output": "octopus"
+  },
+  {
+    "inputs": [
+      "cow",
+      "water"
+    ],
+    "output": "milk"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "fire"
+    ],
+    "output": "meat"
+  },
+  {
+    "inputs": [
+      "wheat",
+      "water"
+    ],
+    "output": "flour"
+  },
+  {
+    "inputs": [
+      "herb",
+      "fire"
+    ],
+    "output": "spice"
+  },
+  {
+    "inputs": [
+      "fruit",
+      "heat"
+    ],
+    "output": "sugar"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "knife"
+    ],
+    "output": "leather"
+  },
+  {
+    "inputs": [
+      "cotton",
+      "tool"
+    ],
+    "output": "wool"
+  },
+  {
+    "inputs": [
+      "wood",
+      "tool"
+    ],
+    "output": "paper"
+  },
+  {
+    "inputs": [
+      "lightning",
+      "lightning"
+    ],
+    "output": "plasma"
+  },
+  {
+    "inputs": [
+      "rain",
+      "light"
+    ],
+    "output": "rainbow"
+  },
+  {
+    "inputs": [
+      "earth",
+      "wave"
+    ],
+    "output": "earthquake"
+  },
+  {
+    "inputs": [
+      "rain",
+      "rain"
+    ],
+    "output": "flood"
+  },
+  {
+    "inputs": [
+      "storm",
+      "wind"
+    ],
+    "output": "hurricane"
+  },
+  {
+    "inputs": [
+      "heat",
+      "heat"
+    ],
+    "output": "drought"
+  },
+  {
+    "inputs": [
+      "forest",
+      "lightning"
+    ],
+    "output": "wildfire"
+  },
+  {
+    "inputs": [
+      "snow",
+      "mountain"
+    ],
+    "output": "avalanche"
+  },
+  {
+    "inputs": [
+      "bone",
+      "stone"
+    ],
+    "output": "fossil"
+  },
+  {
+    "inputs": [
+      "resin",
+      "insect"
+    ],
+    "output": "amber"
+  },
+  {
+    "inputs": [
+      "shell",
+      "ocean"
+    ],
+    "output": "pearl"
+  },
+  {
+    "inputs": [
+      "limestone",
+      "pressure"
+    ],
+    "output": "marble"
+  },
+  {
+    "inputs": [
+      "glass",
+      "silver"
+    ],
+    "output": "mirror"
+  },
+  {
+    "inputs": [
+      "glass",
+      "tool"
+    ],
+    "output": "lens"
+  },
+  {
+    "inputs": [
+      "iron",
+      "tool"
+    ],
+    "output": "gear"
+  },
+  {
+    "inputs": [
+      "quartz",
+      "pressure"
+    ],
+    "output": "crystal"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "light"
+    ],
+    "output": "gem"
+  },
+  {
+    "inputs": [
+      "night",
+      "light"
+    ],
+    "output": "shadow"
+  },
+  {
+    "inputs": [
+      "human",
+      "death"
+    ],
+    "output": "spirit"
+  },
+  {
+    "inputs": [
+      "cell",
+      "evolution"
+    ],
+    "output": "life"
+  },
+  {
+    "inputs": [
+      "plant",
+      "light"
+    ],
+    "output": "photosynthesis"
+  },
+  {
+    "inputs": [
+      "human",
+      "book"
+    ],
+    "output": "knowledge"
+  },
+  {
+    "inputs": [
+      "human",
+      "life"
+    ],
+    "output": "birth"
+  },
+  {
+    "inputs": [
+      "birth",
+      "death"
+    ],
+    "output": "cycle"
+  },
+  {
+    "inputs": [
+      "evolution",
+      "dna"
+    ],
+    "output": "species"
+  },
+  {
+    "inputs": [
+      "explosion",
+      "explosion"
+    ],
+    "output": "explosion_big"
+  },
+  {
+    "inputs": [
+      "stone",
+      "iron_ore"
+    ],
+    "output": "axe"
+  },
+  {
+    "inputs": [
+      "clay",
+      "heat"
+    ],
+    "output": "ceramics"
+  },
+  {
+    "inputs": [
+      "wine",
+      "air"
+    ],
+    "output": "vinegar"
+  },
+  {
+    "inputs": [
+      "honey",
+      "water"
+    ],
+    "output": "mead"
+  },
+  {
+    "inputs": [
+      "water",
+      "salt"
+    ],
+    "output": "salt_water"
+  },
+  {
+    "inputs": [
+      "evolution",
+      "mammal"
+    ],
+    "output": "evolution"
+  },
+  {
+    "inputs": [
+      "stone",
+      "tool"
+    ],
+    "output": "tool"
+  },
+  {
+    "inputs": [
+      "wood",
+      "stone"
+    ],
+    "output": "wheel"
+  },
+  {
+    "inputs": [
+      "wood",
+      "ocean"
+    ],
+    "output": "boat"
+  },
+  {
+    "inputs": [
+      "brick",
+      "brick"
+    ],
+    "output": "house"
+  },
+  {
+    "inputs": [
+      "house",
+      "house"
+    ],
+    "output": "village"
+  },
+  {
+    "inputs": [
+      "village",
+      "village"
+    ],
+    "output": "city"
+  },
+  {
+    "inputs": [
+      "clay",
+      "tool"
+    ],
+    "output": "pottery"
+  },
+  {
+    "inputs": [
+      "flour",
+      "fire"
+    ],
+    "output": "bread"
+  },
+  {
+    "inputs": [
+      "iron_ore",
+      "fire"
+    ],
+    "output": "metal"
+  },
+  {
+    "inputs": [
+      "iron_ore",
+      "forge"
+    ],
+    "output": "iron"
+  },
+  {
+    "inputs": [
+      "sand",
+      "fire"
+    ],
+    "output": "glass"
+  },
+  {
+    "inputs": [
+      "vine",
+      "tool"
+    ],
+    "output": "rope"
+  },
+  {
+    "inputs": [
+      "wool",
+      "tool"
+    ],
+    "output": "cloth"
+  },
+  {
+    "inputs": [
+      "wood",
+      "iron"
+    ],
+    "output": "spear"
+  },
+  {
+    "inputs": [
+      "wood",
+      "rope"
+    ],
+    "output": "bow"
+  },
+  {
+    "inputs": [
+      "iron",
+      "forge"
+    ],
+    "output": "sword"
+  },
+  {
+    "inputs": [
+      "iron",
+      "cloth"
+    ],
+    "output": "armor"
+  },
+  {
+    "inputs": [
+      "wire",
+      "electricity"
+    ],
+    "output": "telegraph"
+  },
+  {
+    "inputs": [
+      "gear",
+      "gear"
+    ],
+    "output": "clock"
+  },
+  {
+    "inputs": [
+      "paper",
+      "knowledge"
+    ],
+    "output": "map"
+  },
+  {
+    "inputs": [
+      "paper",
+      "pen"
+    ],
+    "output": "book"
+  },
+  {
+    "inputs": [
+      "paper",
+      "tool"
+    ],
+    "output": "paper_press"
+  },
+  {
+    "inputs": [
+      "grass",
+      "human"
+    ],
+    "output": "farm"
+  },
+  {
+    "inputs": [
+      "wheel",
+      "stone"
+    ],
+    "output": "mill"
+  },
+  {
+    "inputs": [
+      "iron",
+      "fire"
+    ],
+    "output": "forge"
+  },
+  {
+    "inputs": [
+      "book",
+      "house"
+    ],
+    "output": "library"
+  },
+  {
+    "inputs": [
+      "religion",
+      "house"
+    ],
+    "output": "temple"
+  },
+  {
+    "inputs": [
+      "stone",
+      "wall"
+    ],
+    "output": "castle"
+  },
+  {
+    "inputs": [
+      "stone",
+      "pyramid"
+    ],
+    "output": "pyramid"
+  },
+  {
+    "inputs": [
+      "stone",
+      "monument"
+    ],
+    "output": "monument"
+  },
+  {
+    "inputs": [
+      "stone",
+      "rope"
+    ],
+    "output": "tower"
+  },
+  {
+    "inputs": [
+      "stone",
+      "brick"
+    ],
+    "output": "wall"
+  },
+  {
+    "inputs": [
+      "stone",
+      "river"
+    ],
+    "output": "bridge"
+  },
+  {
+    "inputs": [
+      "stone",
+      "village"
+    ],
+    "output": "road"
+  },
+  {
+    "inputs": [
+      "village",
+      "trade"
+    ],
+    "output": "market"
+  },
+  {
+    "inputs": [
+      "iron",
+      "human"
+    ],
+    "output": "blacksmith"
+  },
+  {
+    "inputs": [
+      "horse",
+      "house"
+    ],
+    "output": "stable"
+  },
+  {
+    "inputs": [
+      "tower",
+      "light"
+    ],
+    "output": "lighthouse"
+  },
+  {
+    "inputs": [
+      "milk",
+      "salt"
+    ],
+    "output": "cheese"
+  },
+  {
+    "inputs": [
+      "grape",
+      "yeast"
+    ],
+    "output": "wine"
+  },
+  {
+    "inputs": [
+      "grain",
+      "yeast"
+    ],
+    "output": "beer"
+  },
+  {
+    "inputs": [
+      "fish",
+      "salt"
+    ],
+    "output": "fish_food"
+  },
+  {
+    "inputs": [
+      "vegetable",
+      "water"
+    ],
+    "output": "soup"
+  },
+  {
+    "inputs": [
+      "herb",
+      "water"
+    ],
+    "output": "tea"
+  },
+  {
+    "inputs": [
+      "grain",
+      "heat"
+    ],
+    "output": "coffee"
+  },
+  {
+    "inputs": [
+      "herb",
+      "alcohol"
+    ],
+    "output": "medicine"
+  },
+  {
+    "inputs": [
+      "medicine",
+      "knowledge"
+    ],
+    "output": "vaccine"
+  },
+  {
+    "inputs": [
+      "stone",
+      "coal"
+    ],
+    "output": "coal_mine"
+  },
+  {
+    "inputs": [
+      "fish",
+      "mammal"
+    ],
+    "output": "shark"
+  },
+  {
+    "inputs": [
+      "bird",
+      "fire"
+    ],
+    "output": "eagle"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "desert"
+    ],
+    "output": "lion"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "cold"
+    ],
+    "output": "wolf"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "cave"
+    ],
+    "output": "bear"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "grass"
+    ],
+    "output": "horse"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "farm"
+    ],
+    "output": "cow"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "mud"
+    ],
+    "output": "pig"
+  },
+  {
+    "inputs": [
+      "bird",
+      "farm"
+    ],
+    "output": "chicken"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "human"
+    ],
+    "output": "dog"
+  },
+  {
+    "inputs": [
+      "dog",
+      "human"
+    ],
+    "output": "cat"
+  },
+  {
+    "inputs": [
+      "wheel",
+      "horse"
+    ],
+    "output": "wagon"
+  },
+  {
+    "inputs": [
+      "wheel",
+      "wheel"
+    ],
+    "output": "bicycle"
+  },
+  {
+    "inputs": [
+      "farm",
+      "iron"
+    ],
+    "output": "farm_tool"
+  },
+  {
+    "inputs": [
+      "gold_ore",
+      "fire"
+    ],
+    "output": "gold"
+  },
+  {
+    "inputs": [
+      "silver_ore",
+      "fire"
+    ],
+    "output": "silver"
+  },
+  {
+    "inputs": [
+      "iron_ore",
+      "heat"
+    ],
+    "output": "copper"
+  },
+  {
+    "inputs": [
+      "carbon",
+      "pressure"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "fire"
+    ],
+    "output": "ruby"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "water"
+    ],
+    "output": "sapphire"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "forest"
+    ],
+    "output": "emerald"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "magic"
+    ],
+    "output": "amethyst"
+  },
+  {
+    "inputs": [
+      "gold",
+      "gem"
+    ],
+    "output": "crown"
+  },
+  {
+    "inputs": [
+      "beer",
+      "house"
+    ],
+    "output": "tavern"
+  },
+  {
+    "inputs": [
+      "wind",
+      "wheel"
+    ],
+    "output": "windmill"
+  },
+  {
+    "inputs": [
+      "river",
+      "wall"
+    ],
+    "output": "dam"
+  },
+  {
+    "inputs": [
+      "water",
+      "gear"
+    ],
+    "output": "turbine"
+  },
+  {
+    "inputs": [
+      "turbine",
+      "electricity"
+    ],
+    "output": "generator"
+  },
+  {
+    "inputs": [
+      "gear",
+      "electricity"
+    ],
+    "output": "motor"
+  },
+  {
+    "inputs": [
+      "electricity",
+      "glass"
+    ],
+    "output": "lamp"
+  },
+  {
+    "inputs": [
+      "copper",
+      "wire"
+    ],
+    "output": "network_cable"
+  },
+  {
+    "inputs": [
+      "air",
+      "salt"
+    ],
+    "output": "nitre"
+  },
+  {
+    "inputs": [
+      "tree",
+      "pressure"
+    ],
+    "output": "rubber"
+  },
+  {
+    "inputs": [
+      "nuclear",
+      "energy_concept"
+    ],
+    "output": "radiation"
+  },
+  {
+    "inputs": [
+      "night",
+      "electricity"
+    ],
+    "output": "aurora"
+  },
+  {
+    "inputs": [
+      "tornado",
+      "storm"
+    ],
+    "output": "tornado_big"
+  },
+  {
+    "inputs": [
+      "wave",
+      "earthquake"
+    ],
+    "output": "tsunami"
+  },
+  {
+    "inputs": [
+      "meteor",
+      "air"
+    ],
+    "output": "comet"
+  },
+  {
+    "inputs": [
+      "asteroid",
+      "air"
+    ],
+    "output": "meteor"
+  },
+  {
+    "inputs": [
+      "stone",
+      "star"
+    ],
+    "output": "asteroid"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "legend"
+    ],
+    "output": "hero"
+  },
+  {
+    "inputs": [
+      "human",
+      "shadow"
+    ],
+    "output": "villain"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "armor"
+    ],
+    "output": "knight"
+  },
+  {
+    "inputs": [
+      "knight",
+      "crown"
+    ],
+    "output": "king"
+  },
+  {
+    "inputs": [
+      "queen",
+      "crown"
+    ],
+    "output": "queen"
+  },
+  {
+    "inputs": [
+      "human",
+      "religion"
+    ],
+    "output": "priest"
+  },
+  {
+    "inputs": [
+      "human",
+      "sword"
+    ],
+    "output": "warrior"
+  },
+  {
+    "inputs": [
+      "human",
+      "farm"
+    ],
+    "output": "farmer"
+  },
+  {
+    "inputs": [
+      "human",
+      "trade"
+    ],
+    "output": "merchant"
+  },
+  {
+    "inputs": [
+      "human",
+      "library"
+    ],
+    "output": "scholar"
+  },
+  {
+    "inputs": [
+      "human",
+      "boat"
+    ],
+    "output": "sailor"
+  },
+  {
+    "inputs": [
+      "sailor",
+      "map"
+    ],
+    "output": "explorer"
+  },
+  {
+    "inputs": [
+      "sailor",
+      "sword"
+    ],
+    "output": "pirate"
+  },
+  {
+    "inputs": [
+      "human",
+      "spirit"
+    ],
+    "output": "shaman"
+  },
+  {
+    "inputs": [
+      "herb",
+      "magic"
+    ],
+    "output": "potion"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "legend"
+    ],
+    "output": "myth"
+  },
+  {
+    "inputs": [
+      "myth",
+      "hero"
+    ],
+    "output": "legend"
+  },
+  {
+    "inputs": [
+      "human",
+      "thought"
+    ],
+    "output": "thought"
+  },
+  {
+    "inputs": [
+      "human",
+      "night"
+    ],
+    "output": "dream"
+  },
+  {
+    "inputs": [
+      "human",
+      "human"
+    ],
+    "output": "tribe"
+  },
+  {
+    "inputs": [
+      "tribe",
+      "market"
+    ],
+    "output": "trade"
+  },
+  {
+    "inputs": [
+      "tribe",
+      "king"
+    ],
+    "output": "law"
+  },
+  {
+    "inputs": [
+      "gold",
+      "trade"
+    ],
+    "output": "money"
+  },
+  {
+    "inputs": [
+      "thought",
+      "dream"
+    ],
+    "output": "imagination"
+  },
+  {
+    "inputs": [
+      "desert",
+      "water"
+    ],
+    "output": "oasis"
+  },
+  {
+    "inputs": [
+      "rope",
+      "bridge"
+    ],
+    "output": "rope_bridge"
+  },
+  {
+    "inputs": [
+      "sand",
+      "water"
+    ],
+    "output": "mortar"
+  },
+  {
+    "inputs": [
+      "iron",
+      "electricity"
+    ],
+    "output": "magnetism"
+  },
+  {
+    "inputs": [
+      "engine",
+      "gear"
+    ],
+    "output": "machine"
+  },
+  {
+    "inputs": [
+      "silicon",
+      "electricity"
+    ],
+    "output": "computer"
+  },
+  {
+    "inputs": [
+      "computer",
+      "network"
+    ],
+    "output": "internet"
+  },
+  {
+    "inputs": [
+      "machine",
+      "electricity"
+    ],
+    "output": "robot"
+  },
+  {
+    "inputs": [
+      "engine",
+      "fire"
+    ],
+    "output": "rocket"
+  },
+  {
+    "inputs": [
+      "boat",
+      "engine"
+    ],
+    "output": "ship"
+  },
+  {
+    "inputs": [
+      "machine",
+      "air"
+    ],
+    "output": "airplane"
+  },
+  {
+    "inputs": [
+      "engine",
+      "wheel"
+    ],
+    "output": "car"
+  },
+  {
+    "inputs": [
+      "iron",
+      "carbon"
+    ],
+    "output": "steel"
+  },
+  {
+    "inputs": [
+      "quartz",
+      "heat"
+    ],
+    "output": "silicon"
+  },
+  {
+    "inputs": [
+      "copper",
+      "tool"
+    ],
+    "output": "wire"
+  },
+  {
+    "inputs": [
+      "silicon",
+      "light"
+    ],
+    "output": "solar_panel"
+  },
+  {
+    "inputs": [
+      "medicine",
+      "science"
+    ],
+    "output": "medicine_advanced"
+  },
+  {
+    "inputs": [
+      "lens",
+      "glass"
+    ],
+    "output": "telescope"
+  },
+  {
+    "inputs": [
+      "lens",
+      "science"
+    ],
+    "output": "microscope"
+  },
+  {
+    "inputs": [
+      "paper_press",
+      "book"
+    ],
+    "output": "printing_press"
+  },
+  {
+    "inputs": [
+      "lens",
+      "light"
+    ],
+    "output": "camera"
+  },
+  {
+    "inputs": [
+      "telegraph",
+      "air"
+    ],
+    "output": "radio"
+  },
+  {
+    "inputs": [
+      "radio",
+      "camera"
+    ],
+    "output": "television"
+  },
+  {
+    "inputs": [
+      "ship",
+      "ocean"
+    ],
+    "output": "submarine"
+  },
+  {
+    "inputs": [
+      "car",
+      "armor"
+    ],
+    "output": "tank"
+  },
+  {
+    "inputs": [
+      "nitre",
+      "explosion"
+    ],
+    "output": "bomb"
+  },
+  {
+    "inputs": [
+      "city",
+      "city"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "king"
+    ],
+    "output": "empire"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "law"
+    ],
+    "output": "democracy"
+  },
+  {
+    "inputs": [
+      "trade",
+      "money"
+    ],
+    "output": "economy"
+  },
+  {
+    "inputs": [
+      "knowledge",
+      "knowledge"
+    ],
+    "output": "science"
+  },
+  {
+    "inputs": [
+      "knowledge",
+      "thought"
+    ],
+    "output": "philosophy"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "temple"
+    ],
+    "output": "religion"
+  },
+  {
+    "inputs": [
+      "art",
+      "language"
+    ],
+    "output": "culture"
+  },
+  {
+    "inputs": [
+      "sword",
+      "sword"
+    ],
+    "output": "war"
+  },
+  {
+    "inputs": [
+      "war",
+      "wisdom"
+    ],
+    "output": "peace"
+  },
+  {
+    "inputs": [
+      "order",
+      "chaos"
+    ],
+    "output": "chaos"
+  },
+  {
+    "inputs": [
+      "law",
+      "law"
+    ],
+    "output": "order"
+  },
+  {
+    "inputs": [
+      "electricity",
+      "fire"
+    ],
+    "output": "energy_concept"
+  },
+  {
+    "inputs": [
+      "science",
+      "house"
+    ],
+    "output": "laboratory"
+  },
+  {
+    "inputs": [
+      "machine",
+      "house"
+    ],
+    "output": "factory"
+  },
+  {
+    "inputs": [
+      "generator",
+      "house"
+    ],
+    "output": "power_plant"
+  },
+  {
+    "inputs": [
+      "city",
+      "steel"
+    ],
+    "output": "skyscraper"
+  },
+  {
+    "inputs": [
+      "medicine",
+      "house"
+    ],
+    "output": "hospital"
+  },
+  {
+    "inputs": [
+      "science",
+      "library"
+    ],
+    "output": "university"
+  },
+  {
+    "inputs": [
+      "book",
+      "book"
+    ],
+    "output": "library_great"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "knowledge"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "human",
+      "magic"
+    ],
+    "output": "witch"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "magic"
+    ],
+    "output": "wizard"
+  },
+  {
+    "inputs": [
+      "human",
+      "forest"
+    ],
+    "output": "elf"
+  },
+  {
+    "inputs": [
+      "human",
+      "cave"
+    ],
+    "output": "dwarf"
+  },
+  {
+    "inputs": [
+      "fish",
+      "human"
+    ],
+    "output": "mermaid"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "lamp"
+    ],
+    "output": "genie"
+  },
+  {
+    "inputs": [
+      "human",
+      "earth"
+    ],
+    "output": "troll"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "flower"
+    ],
+    "output": "fairy"
+  },
+  {
+    "inputs": [
+      "eagle",
+      "lion"
+    ],
+    "output": "griffin"
+  },
+  {
+    "inputs": [
+      "snake",
+      "water"
+    ],
+    "output": "hydra"
+  },
+  {
+    "inputs": [
+      "human",
+      "horse"
+    ],
+    "output": "centaur"
+  },
+  {
+    "inputs": [
+      "squid",
+      "ocean"
+    ],
+    "output": "kraken"
+  },
+  {
+    "inputs": [
+      "human",
+      "mountain"
+    ],
+    "output": "giant"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "fire"
+    ],
+    "output": "demon"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "light"
+    ],
+    "output": "angel"
+  },
+  {
+    "inputs": [
+      "angel",
+      "demon"
+    ],
+    "output": "god"
+  },
+  {
+    "inputs": [
+      "oil",
+      "heat"
+    ],
+    "output": "plastic"
+  },
+  {
+    "inputs": [
+      "sand",
+      "stone"
+    ],
+    "output": "concrete"
+  },
+  {
+    "inputs": [
+      "silicon",
+      "wire"
+    ],
+    "output": "fiber_optics"
+  },
+  {
+    "inputs": [
+      "light",
+      "electricity"
+    ],
+    "output": "laser"
+  },
+  {
+    "inputs": [
+      "silicon",
+      "copper"
+    ],
+    "output": "semiconductor"
+  },
+  {
+    "inputs": [
+      "semiconductor",
+      "science"
+    ],
+    "output": "microchip"
+  },
+  {
+    "inputs": [
+      "computer",
+      "wire"
+    ],
+    "output": "network"
+  },
+  {
+    "inputs": [
+      "forest",
+      "ocean"
+    ],
+    "output": "ecosystem"
+  },
+  {
+    "inputs": [
+      "medicine",
+      "human"
+    ],
+    "output": "health"
+  },
+  {
+    "inputs": [
+      "love",
+      "life"
+    ],
+    "output": "happiness"
+  },
+  {
+    "inputs": [
+      "wisdom",
+      "peace"
+    ],
+    "output": "enlightenment"
+  },
+  {
+    "inputs": [
+      "death",
+      "life"
+    ],
+    "output": "reincarnation"
+  },
+  {
+    "inputs": [
+      "death",
+      "spirit"
+    ],
+    "output": "afterlife"
+  },
+  {
+    "inputs": [
+      "angel",
+      "cloud"
+    ],
+    "output": "heaven"
+  },
+  {
+    "inputs": [
+      "demon",
+      "fire"
+    ],
+    "output": "hell"
+  },
+  {
+    "inputs": [
+      "soul",
+      "life"
+    ],
+    "output": "karma"
+  },
+  {
+    "inputs": [
+      "democracy",
+      "law"
+    ],
+    "output": "democracy_rep"
+  },
+  {
+    "inputs": [
+      "star",
+      "explosion"
+    ],
+    "output": "supernova"
+  },
+  {
+    "inputs": [
+      "comet",
+      "comet"
+    ],
+    "output": "comet_big"
+  },
+  {
+    "inputs": [
+      "rocket",
+      "electricity"
+    ],
+    "output": "satellite"
+  },
+  {
+    "inputs": [
+      "rocket",
+      "house"
+    ],
+    "output": "space_station"
+  },
+  {
+    "inputs": [
+      "telescope",
+      "rocket"
+    ],
+    "output": "telescope_space"
+  },
+  {
+    "inputs": [
+      "knowledge",
+      "science"
+    ],
+    "output": "invention"
+  },
+  {
+    "inputs": [
+      "music",
+      "peace"
+    ],
+    "output": "harmony"
+  },
+  {
+    "inputs": [
+      "love",
+      "human"
+    ],
+    "output": "family"
+  },
+  {
+    "inputs": [
+      "love",
+      "fire"
+    ],
+    "output": "passion"
+  },
+  {
+    "inputs": [
+      "life",
+      "universe"
+    ],
+    "output": "eternity"
+  },
+  {
+    "inputs": [
+      "ai",
+      "ai"
+    ],
+    "output": "singularity"
+  },
+  {
+    "inputs": [
+      "factory",
+      "factory"
+    ],
+    "output": "industry"
+  },
+  {
+    "inputs": [
+      "heaven",
+      "god"
+    ],
+    "output": "heaven_gate"
+  },
+  {
+    "inputs": [
+      "star",
+      "star"
+    ],
+    "output": "sun"
+  },
+  {
+    "inputs": [
+      "earth",
+      "sun"
+    ],
+    "output": "moon"
+  },
+  {
+    "inputs": [
+      "galaxy",
+      "galaxy"
+    ],
+    "output": "universe"
+  },
+  {
+    "inputs": [
+      "horse",
+      "magic"
+    ],
+    "output": "unicorn"
+  },
+  {
+    "inputs": [
+      "universe",
+      "universe"
+    ],
+    "output": "dimension"
+  },
+  {
+    "inputs": [
+      "dimension",
+      "dimension"
+    ],
+    "output": "multiverse"
+  },
+  {
+    "inputs": [
+      "life",
+      "magic"
+    ],
+    "output": "immortality"
+  },
+  {
+    "inputs": [
+      "fate",
+      "star"
+    ],
+    "output": "destiny"
+  },
+  {
+    "inputs": [
+      "giant",
+      "god"
+    ],
+    "output": "titan"
+  },
+  {
+    "inputs": [
+      "human",
+      "god"
+    ],
+    "output": "demigod"
+  },
+  {
+    "inputs": [
+      "snake",
+      "ocean"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "ice"
+    ],
+    "output": "ice_dragon"
+  },
+  {
+    "inputs": [
+      "universe",
+      "energy_concept"
+    ],
+    "output": "big_bang"
+  },
+  {
+    "inputs": [
+      "war",
+      "god"
+    ],
+    "output": "god_of_war"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "god"
+    ],
+    "output": "god_of_sea"
+  },
+  {
+    "inputs": [
+      "god",
+      "universe"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "enlightenment",
+      "peace"
+    ],
+    "output": "nirvana"
+  },
+  {
+    "inputs": [
+      "wisdom",
+      "enlightenment"
+    ],
+    "output": "enlightenment_full"
+  },
+  {
+    "inputs": [
+      "human",
+      "rocket"
+    ],
+    "output": "astronaut"
+  },
+  {
+    "inputs": [
+      "bomb",
+      "nuclear"
+    ],
+    "output": "nuclear_bomb"
+  },
+  {
+    "inputs": [
+      "tsunami",
+      "earthquake"
+    ],
+    "output": "tsunami_mega"
+  },
+  {
+    "inputs": [
+      "supernova",
+      "supernova"
+    ],
+    "output": "supernova_mega"
+  },
+  {
+    "inputs": [
+      "earth",
+      "cold"
+    ],
+    "output": "glacier"
+  },
+  {
+    "inputs": [
+      "water",
+      "sun"
+    ],
+    "output": "steam"
+  },
+  {
+    "inputs": [
+      "cloud",
+      "wind"
+    ],
+    "output": "storm"
+  },
+  {
+    "inputs": [
+      "stone",
+      "mountain"
+    ],
+    "output": "cave"
+  },
+  {
+    "inputs": [
+      "night",
+      "star"
+    ],
+    "output": "moon"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "river"
+    ],
+    "output": "lake"
+  },
+  {
+    "inputs": [
+      "rain",
+      "earth"
+    ],
+    "output": "flood"
+  },
+  {
+    "inputs": [
+      "wind",
+      "rain"
+    ],
+    "output": "storm"
+  },
+  {
+    "inputs": [
+      "fire",
+      "smoke"
+    ],
+    "output": "charcoal"
+  },
+  {
+    "inputs": [
+      "clay",
+      "water"
+    ],
+    "output": "mud"
+  },
+  {
+    "inputs": [
+      "ice",
+      "water"
+    ],
+    "output": "river"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "cold"
+    ],
+    "output": "glacier"
+  },
+  {
+    "inputs": [
+      "rain",
+      "cold"
+    ],
+    "output": "snow"
+  },
+  {
+    "inputs": [
+      "grass",
+      "tree"
+    ],
+    "output": "forest"
+  },
+  {
+    "inputs": [
+      "grass",
+      "water"
+    ],
+    "output": "swamp"
+  },
+  {
+    "inputs": [
+      "algae",
+      "sun"
+    ],
+    "output": "plant"
+  },
+  {
+    "inputs": [
+      "plant",
+      "water"
+    ],
+    "output": "vine"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "plant"
+    ],
+    "output": "seaweed"
+  },
+  {
+    "inputs": [
+      "desert",
+      "plant"
+    ],
+    "output": "cactus"
+  },
+  {
+    "inputs": [
+      "cell",
+      "sun"
+    ],
+    "output": "algae"
+  },
+  {
+    "inputs": [
+      "ash",
+      "water"
+    ],
+    "output": "soil"
+  },
+  {
+    "inputs": [
+      "compost",
+      "soil"
+    ],
+    "output": "soil"
+  },
+  {
+    "inputs": [
+      "iron",
+      "oxygen"
+    ],
+    "output": "rust"
+  },
+  {
+    "inputs": [
+      "wood",
+      "air"
+    ],
+    "output": "smoke"
+  },
+  {
+    "inputs": [
+      "rain",
+      "ocean"
+    ],
+    "output": "flood"
+  },
+  {
+    "inputs": [
+      "storm",
+      "ocean"
+    ],
+    "output": "hurricane"
+  },
+  {
+    "inputs": [
+      "fire",
+      "forest"
+    ],
+    "output": "wildfire"
+  },
+  {
+    "inputs": [
+      "sun",
+      "cold"
+    ],
+    "output": "moon"
+  },
+  {
+    "inputs": [
+      "fish",
+      "coral"
+    ],
+    "output": "starfish"
+  },
+  {
+    "inputs": [
+      "bird",
+      "cold"
+    ],
+    "output": "penguin"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "wolf"
+    ],
+    "output": "dog"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "evolution"
+    ],
+    "output": "dinosaur"
+  },
+  {
+    "inputs": [
+      "insect",
+      "air"
+    ],
+    "output": "butterfly"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "snow"
+    ],
+    "output": "wolf"
+  },
+  {
+    "inputs": [
+      "wheat",
+      "stone"
+    ],
+    "output": "flour"
+  },
+  {
+    "inputs": [
+      "milk",
+      "vinegar"
+    ],
+    "output": "cheese"
+  },
+  {
+    "inputs": [
+      "meat",
+      "fire"
+    ],
+    "output": "soup"
+  },
+  {
+    "inputs": [
+      "grain",
+      "alcohol"
+    ],
+    "output": "alcohol"
+  },
+  {
+    "inputs": [
+      "fruit",
+      "sugar"
+    ],
+    "output": "wine"
+  },
+  {
+    "inputs": [
+      "human",
+      "stone"
+    ],
+    "output": "tool"
+  },
+  {
+    "inputs": [
+      "axe",
+      "tree"
+    ],
+    "output": "wood"
+  },
+  {
+    "inputs": [
+      "clay",
+      "stone"
+    ],
+    "output": "pottery"
+  },
+  {
+    "inputs": [
+      "tool",
+      "tree"
+    ],
+    "output": "wood"
+  },
+  {
+    "inputs": [
+      "tree",
+      "fire"
+    ],
+    "output": "wood"
+  },
+  {
+    "inputs": [
+      "metal",
+      "tool"
+    ],
+    "output": "knife"
+  },
+  {
+    "inputs": [
+      "metal",
+      "wheel"
+    ],
+    "output": "gear"
+  },
+  {
+    "inputs": [
+      "metal",
+      "wire"
+    ],
+    "output": "telegraph"
+  },
+  {
+    "inputs": [
+      "metal",
+      "electricity"
+    ],
+    "output": "magnetism"
+  },
+  {
+    "inputs": [
+      "glass",
+      "metal"
+    ],
+    "output": "telescope"
+  },
+  {
+    "inputs": [
+      "glass",
+      "stone"
+    ],
+    "output": "lens"
+  },
+  {
+    "inputs": [
+      "rubber",
+      "plastic"
+    ],
+    "output": "plastic"
+  },
+  {
+    "inputs": [
+      "plastic",
+      "oil"
+    ],
+    "output": "plastic"
+  },
+  {
+    "inputs": [
+      "concrete",
+      "steel"
+    ],
+    "output": "skyscraper"
+  },
+  {
+    "inputs": [
+      "concrete",
+      "bridge"
+    ],
+    "output": "aqueduct"
+  },
+  {
+    "inputs": [
+      "concrete",
+      "city"
+    ],
+    "output": "skyscraper"
+  },
+  {
+    "inputs": [
+      "steel",
+      "iron"
+    ],
+    "output": "steel"
+  },
+  {
+    "inputs": [
+      "aluminum",
+      "airplane"
+    ],
+    "output": "airplane"
+  },
+  {
+    "inputs": [
+      "steel",
+      "ship"
+    ],
+    "output": "submarine"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "religion"
+    ],
+    "output": "priest"
+  },
+  {
+    "inputs": [
+      "tribe",
+      "warrior"
+    ],
+    "output": "war"
+  },
+  {
+    "inputs": [
+      "explorer",
+      "ocean"
+    ],
+    "output": "pirate"
+  },
+  {
+    "inputs": [
+      "shaman",
+      "herb"
+    ],
+    "output": "medicine"
+  },
+  {
+    "inputs": [
+      "shaman",
+      "fire"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "witch",
+      "spell"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "wizard",
+      "spell"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "wizard",
+      "book"
+    ],
+    "output": "spell"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "book"
+    ],
+    "output": "knowledge"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "science"
+    ],
+    "output": "wisdom"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "horse"
+    ],
+    "output": "knight"
+  },
+  {
+    "inputs": [
+      "farmer",
+      "tool"
+    ],
+    "output": "farm_tool"
+  },
+  {
+    "inputs": [
+      "farmer",
+      "harvest"
+    ],
+    "output": "grain"
+  },
+  {
+    "inputs": [
+      "merchant",
+      "trade"
+    ],
+    "output": "money"
+  },
+  {
+    "inputs": [
+      "merchant",
+      "market"
+    ],
+    "output": "economy"
+  },
+  {
+    "inputs": [
+      "sailor",
+      "wind"
+    ],
+    "output": "boat"
+  },
+  {
+    "inputs": [
+      "sailor",
+      "ocean"
+    ],
+    "output": "ship"
+  },
+  {
+    "inputs": [
+      "ninja",
+      "shadow"
+    ],
+    "output": "warrior"
+  },
+  {
+    "inputs": [
+      "gold",
+      "iron"
+    ],
+    "output": "bronze"
+  },
+  {
+    "inputs": [
+      "copper",
+      "iron"
+    ],
+    "output": "metal"
+  },
+  {
+    "inputs": [
+      "metal",
+      "fire"
+    ],
+    "output": "iron"
+  },
+  {
+    "inputs": [
+      "metal",
+      "coal"
+    ],
+    "output": "steel"
+  },
+  {
+    "inputs": [
+      "stone",
+      "carbon"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "gem",
+      "ocean"
+    ],
+    "output": "sapphire"
+  },
+  {
+    "inputs": [
+      "gem",
+      "forest"
+    ],
+    "output": "emerald"
+  },
+  {
+    "inputs": [
+      "gem",
+      "spirit"
+    ],
+    "output": "amethyst"
+  },
+  {
+    "inputs": [
+      "turbine",
+      "water"
+    ],
+    "output": "electricity"
+  },
+  {
+    "inputs": [
+      "solar_panel",
+      "sun"
+    ],
+    "output": "electricity"
+  },
+  {
+    "inputs": [
+      "wire",
+      "machine"
+    ],
+    "output": "robot"
+  },
+  {
+    "inputs": [
+      "wire",
+      "semiconductor"
+    ],
+    "output": "microchip"
+  },
+  {
+    "inputs": [
+      "microchip",
+      "electricity"
+    ],
+    "output": "computer"
+  },
+  {
+    "inputs": [
+      "computer",
+      "satellite"
+    ],
+    "output": "internet"
+  },
+  {
+    "inputs": [
+      "internet",
+      "computer"
+    ],
+    "output": "ai"
+  },
+  {
+    "inputs": [
+      "ai",
+      "robot"
+    ],
+    "output": "automation"
+  },
+  {
+    "inputs": [
+      "factory",
+      "machine"
+    ],
+    "output": "industry"
+  },
+  {
+    "inputs": [
+      "paper",
+      "printing_press"
+    ],
+    "output": "book"
+  },
+  {
+    "inputs": [
+      "book",
+      "library"
+    ],
+    "output": "library_great"
+  },
+  {
+    "inputs": [
+      "star",
+      "planet"
+    ],
+    "output": "sun"
+  },
+  {
+    "inputs": [
+      "star",
+      "death"
+    ],
+    "output": "supernova"
+  },
+  {
+    "inputs": [
+      "red_giant",
+      "explosion"
+    ],
+    "output": "supernova"
+  },
+  {
+    "inputs": [
+      "neutron_star",
+      "black_hole"
+    ],
+    "output": "void"
+  },
+  {
+    "inputs": [
+      "black_hole",
+      "black_hole"
+    ],
+    "output": "wormhole"
+  },
+  {
+    "inputs": [
+      "dark_matter",
+      "universe"
+    ],
+    "output": "galaxy"
+  },
+  {
+    "inputs": [
+      "dimension",
+      "universe"
+    ],
+    "output": "multiverse"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "fire"
+    ],
+    "output": "dragon"
+  },
+  {
+    "inputs": [
+      "phoenix",
+      "ash"
+    ],
+    "output": "phoenix"
+  },
+  {
+    "inputs": [
+      "unicorn",
+      "rainbow"
+    ],
+    "output": "unicorn"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "water"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "whale",
+      "sea_serpent"
+    ],
+    "output": "leviathan"
+  },
+  {
+    "inputs": [
+      "demigod",
+      "god"
+    ],
+    "output": "titan"
+  },
+  {
+    "inputs": [
+      "titan",
+      "god"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "nirvana",
+      "soul"
+    ],
+    "output": "enlightenment_full"
+  },
+  {
+    "inputs": [
+      "enlightenment",
+      "reincarnation"
+    ],
+    "output": "nirvana"
+  },
+  {
+    "inputs": [
+      "soul",
+      "death"
+    ],
+    "output": "ghost"
+  },
+  {
+    "inputs": [
+      "spirit",
+      "magic"
+    ],
+    "output": "fairy"
+  },
+  {
+    "inputs": [
+      "fairy",
+      "human"
+    ],
+    "output": "elf"
+  },
+  {
+    "inputs": [
+      "zombie",
+      "death"
+    ],
+    "output": "ghost"
+  },
+  {
+    "inputs": [
+      "vampire",
+      "night"
+    ],
+    "output": "demon"
+  },
+  {
+    "inputs": [
+      "human",
+      "tribe"
+    ],
+    "output": "tribe"
+  },
+  {
+    "inputs": [
+      "tribe",
+      "tribe"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "trade"
+    ],
+    "output": "economy"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "art"
+    ],
+    "output": "culture"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "war"
+    ],
+    "output": "war"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "peace"
+    ],
+    "output": "philosophy"
+  },
+  {
+    "inputs": [
+      "economy",
+      "trade"
+    ],
+    "output": "money"
+  },
+  {
+    "inputs": [
+      "philosophy",
+      "knowledge"
+    ],
+    "output": "wisdom"
+  },
+  {
+    "inputs": [
+      "religion",
+      "soul"
+    ],
+    "output": "spirit"
+  },
+  {
+    "inputs": [
+      "religion",
+      "god"
+    ],
+    "output": "heaven"
+  },
+  {
+    "inputs": [
+      "religion",
+      "demon"
+    ],
+    "output": "hell"
+  },
+  {
+    "inputs": [
+      "culture",
+      "art"
+    ],
+    "output": "art_work"
+  },
+  {
+    "inputs": [
+      "culture",
+      "music"
+    ],
+    "output": "harmony"
+  },
+  {
+    "inputs": [
+      "language",
+      "knowledge"
+    ],
+    "output": "culture"
+  },
+  {
+    "inputs": [
+      "science",
+      "life"
+    ],
+    "output": "evolution_advanced"
+  },
+  {
+    "inputs": [
+      "science",
+      "universe"
+    ],
+    "output": "quantum"
+  },
+  {
+    "inputs": [
+      "consciousness",
+      "wisdom"
+    ],
+    "output": "enlightenment"
+  },
+  {
+    "inputs": [
+      "star",
+      "fire"
+    ],
+    "output": "sun"
+  },
+  {
+    "inputs": [
+      "sun",
+      "night"
+    ],
+    "output": "moon"
+  },
+  {
+    "inputs": [
+      "moon",
+      "earth"
+    ],
+    "output": "planet"
+  },
+  {
+    "inputs": [
+      "galaxy",
+      "star"
+    ],
+    "output": "nebula"
+  },
+  {
+    "inputs": [
+      "nebula",
+      "nebula"
+    ],
+    "output": "galaxy"
+  },
+  {
+    "inputs": [
+      "space_station",
+      "satellite"
+    ],
+    "output": "space_station"
+  },
+  {
+    "inputs": [
+      "astronaut",
+      "space_station"
+    ],
+    "output": "space_station"
+  },
+  {
+    "inputs": [
+      "telescope",
+      "star"
+    ],
+    "output": "telescope_space"
+  },
+  {
+    "inputs": [
+      "satellite",
+      "earth"
+    ],
+    "output": "satellite"
+  },
+  {
+    "inputs": [
+      "birth",
+      "aging"
+    ],
+    "output": "cycle"
+  },
+  {
+    "inputs": [
+      "sun",
+      "rain"
+    ],
+    "output": "rainbow"
+  },
+  {
+    "inputs": [
+      "light",
+      "water"
+    ],
+    "output": "rainbow"
+  },
+  {
+    "inputs": [
+      "chaos",
+      "life"
+    ],
+    "output": "evolution"
+  },
+  {
+    "inputs": [
+      "order",
+      "life"
+    ],
+    "output": "species"
+  },
+  {
+    "inputs": [
+      "karma",
+      "soul"
+    ],
+    "output": "reincarnation"
+  },
+  {
+    "inputs": [
+      "soul",
+      "peace"
+    ],
+    "output": "nirvana"
+  },
+  {
+    "inputs": [
+      "consciousness",
+      "universe"
+    ],
+    "output": "eternity"
+  },
+  {
+    "inputs": [
+      "imagination",
+      "creation"
+    ],
+    "output": "art"
+  },
+  {
+    "inputs": [
+      "imagination",
+      "science"
+    ],
+    "output": "invention"
+  },
+  {
+    "inputs": [
+      "dream",
+      "imagination"
+    ],
+    "output": "imagination"
+  },
+  {
+    "inputs": [
+      "thought",
+      "thought"
+    ],
+    "output": "philosophy"
+  },
+  {
+    "inputs": [
+      "knowledge",
+      "life"
+    ],
+    "output": "consciousness"
+  },
+  {
+    "inputs": [
+      "freedom",
+      "peace"
+    ],
+    "output": "harmony"
+  },
+  {
+    "inputs": [
+      "justice",
+      "law"
+    ],
+    "output": "order"
+  },
+  {
+    "inputs": [
+      "balance",
+      "life"
+    ],
+    "output": "ecosystem"
+  },
+  {
+    "inputs": [
+      "harmony",
+      "life"
+    ],
+    "output": "peace"
+  },
+  {
+    "inputs": [
+      "passion",
+      "art"
+    ],
+    "output": "art_work"
+  },
+  {
+    "inputs": [
+      "passion",
+      "love"
+    ],
+    "output": "family"
+  },
+  {
+    "inputs": [
+      "happiness",
+      "wisdom"
+    ],
+    "output": "nirvana"
+  },
+  {
+    "inputs": [
+      "health",
+      "happiness"
+    ],
+    "output": "life"
+  },
+  {
+    "inputs": [
+      "luck",
+      "fate"
+    ],
+    "output": "destiny"
+  },
+  {
+    "inputs": [
+      "king",
+      "law"
+    ],
+    "output": "justice"
+  },
+  {
+    "inputs": [
+      "queen",
+      "king"
+    ],
+    "output": "family"
+  },
+  {
+    "inputs": [
+      "priest",
+      "god"
+    ],
+    "output": "religion"
+  },
+  {
+    "inputs": [
+      "shaman",
+      "spirit"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "wisdom"
+    ],
+    "output": "philosophy"
+  },
+  {
+    "inputs": [
+      "farmer",
+      "rain"
+    ],
+    "output": "harvest"
+  },
+  {
+    "inputs": [
+      "merchant",
+      "ship"
+    ],
+    "output": "trade"
+  },
+  {
+    "inputs": [
+      "sailor",
+      "star"
+    ],
+    "output": "compass"
+  },
+  {
+    "inputs": [
+      "blacksmith",
+      "iron"
+    ],
+    "output": "sword"
+  },
+  {
+    "inputs": [
+      "blacksmith",
+      "forge"
+    ],
+    "output": "armor"
+  },
+  {
+    "inputs": [
+      "tribe",
+      "shaman"
+    ],
+    "output": "religion"
+  },
+  {
+    "inputs": [
+      "family",
+      "tribe"
+    ],
+    "output": "tribe"
+  },
+  {
+    "inputs": [
+      "family",
+      "love"
+    ],
+    "output": "happiness"
+  },
+  {
+    "inputs": [
+      "memory",
+      "knowledge"
+    ],
+    "output": "language"
+  },
+  {
+    "inputs": [
+      "love",
+      "war"
+    ],
+    "output": "passion"
+  },
+  {
+    "inputs": [
+      "witch",
+      "potion"
+    ],
+    "output": "spell"
+  },
+  {
+    "inputs": [
+      "dwarf",
+      "axe"
+    ],
+    "output": "warrior"
+  },
+  {
+    "inputs": [
+      "ghost",
+      "shadow"
+    ],
+    "output": "spirit"
+  },
+  {
+    "inputs": [
+      "mermaid",
+      "ocean"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "troll",
+      "bridge"
+    ],
+    "output": "troll"
+  },
+  {
+    "inputs": [
+      "hydra",
+      "water"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "centaur",
+      "warrior"
+    ],
+    "output": "warrior"
+  },
+  {
+    "inputs": [
+      "kraken",
+      "ship"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "giant",
+      "stone"
+    ],
+    "output": "mountain"
+  },
+  {
+    "inputs": [
+      "demon",
+      "soul"
+    ],
+    "output": "hell"
+  },
+  {
+    "inputs": [
+      "angel",
+      "soul"
+    ],
+    "output": "heaven"
+  },
+  {
+    "inputs": [
+      "oracle",
+      "fate"
+    ],
+    "output": "destiny"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "knight"
+    ],
+    "output": "hero"
+  },
+  {
+    "inputs": [
+      "unicorn",
+      "fairy"
+    ],
+    "output": "magic"
+  },
+  {
+    "inputs": [
+      "monster",
+      "hero"
+    ],
+    "output": "legend"
+  },
+  {
+    "inputs": [
+      "monster",
+      "cave"
+    ],
+    "output": "monster"
+  },
+  {
+    "inputs": [
+      "electricity",
+      "motor"
+    ],
+    "output": "engine"
+  },
+  {
+    "inputs": [
+      "engine",
+      "car"
+    ],
+    "output": "car"
+  },
+  {
+    "inputs": [
+      "engine",
+      "airplane"
+    ],
+    "output": "airplane"
+  },
+  {
+    "inputs": [
+      "engine",
+      "train"
+    ],
+    "output": "train"
+  },
+  {
+    "inputs": [
+      "engine",
+      "rocket"
+    ],
+    "output": "rocket"
+  },
+  {
+    "inputs": [
+      "steel",
+      "car"
+    ],
+    "output": "tank"
+  },
+  {
+    "inputs": [
+      "nuclear",
+      "generator"
+    ],
+    "output": "power_plant"
+  },
+  {
+    "inputs": [
+      "solar_panel",
+      "generator"
+    ],
+    "output": "power_plant"
+  },
+  {
+    "inputs": [
+      "laser",
+      "science"
+    ],
+    "output": "microscope"
+  },
+  {
+    "inputs": [
+      "laser",
+      "fiber_optics"
+    ],
+    "output": "internet"
+  },
+  {
+    "inputs": [
+      "microchip",
+      "robot"
+    ],
+    "output": "ai"
+  },
+  {
+    "inputs": [
+      "ai",
+      "consciousness"
+    ],
+    "output": "singularity"
+  },
+  {
+    "inputs": [
+      "singularity",
+      "universe"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "flood",
+      "earthquake"
+    ],
+    "output": "tsunami"
+  },
+  {
+    "inputs": [
+      "tsunami",
+      "island"
+    ],
+    "output": "tsunami_mega"
+  },
+  {
+    "inputs": [
+      "wildfire",
+      "wildfire"
+    ],
+    "output": "explosion_big"
+  },
+  {
+    "inputs": [
+      "volcano",
+      "ocean"
+    ],
+    "output": "island"
+  },
+  {
+    "inputs": [
+      "earthquake",
+      "mountain"
+    ],
+    "output": "avalanche"
+  },
+  {
+    "inputs": [
+      "drought",
+      "heat"
+    ],
+    "output": "wildfire"
+  },
+  {
+    "inputs": [
+      "hurricane",
+      "ocean"
+    ],
+    "output": "tsunami"
+  },
+  {
+    "inputs": [
+      "tornado_big",
+      "tornado"
+    ],
+    "output": "hurricane"
+  },
+  {
+    "inputs": [
+      "aurora",
+      "night"
+    ],
+    "output": "aurora"
+  },
+  {
+    "inputs": [
+      "aurora",
+      "electricity"
+    ],
+    "output": "plasma"
+  },
+  {
+    "inputs": [
+      "radiation",
+      "nuclear"
+    ],
+    "output": "nuclear_bomb"
+  },
+  {
+    "inputs": [
+      "art",
+      "human"
+    ],
+    "output": "culture"
+  },
+  {
+    "inputs": [
+      "music",
+      "human"
+    ],
+    "output": "culture"
+  },
+  {
+    "inputs": [
+      "language",
+      "human"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "art_work",
+      "temple"
+    ],
+    "output": "monument"
+  },
+  {
+    "inputs": [
+      "music",
+      "temple"
+    ],
+    "output": "religion"
+  },
+  {
+    "inputs": [
+      "science",
+      "hospital"
+    ],
+    "output": "medicine_advanced"
+  },
+  {
+    "inputs": [
+      "medicine_advanced",
+      "vaccine"
+    ],
+    "output": "health"
+  },
+  {
+    "inputs": [
+      "university",
+      "science"
+    ],
+    "output": "invention"
+  },
+  {
+    "inputs": [
+      "university",
+      "philosophy"
+    ],
+    "output": "wisdom"
+  },
+  {
+    "inputs": [
+      "printing_press",
+      "book"
+    ],
+    "output": "library_great"
+  },
+  {
+    "inputs": [
+      "library_great",
+      "knowledge"
+    ],
+    "output": "science"
+  },
+  {
+    "inputs": [
+      "ecosystem",
+      "evolution"
+    ],
+    "output": "species"
+  },
+  {
+    "inputs": [
+      "protein",
+      "dna"
+    ],
+    "output": "virus"
+  },
+  {
+    "inputs": [
+      "virus",
+      "human"
+    ],
+    "output": "medicine"
+  },
+  {
+    "inputs": [
+      "bacteria",
+      "human"
+    ],
+    "output": "medicine"
+  },
+  {
+    "inputs": [
+      "photosynthesis",
+      "plant"
+    ],
+    "output": "oxygen"
+  },
+  {
+    "inputs": [
+      "photosynthesis",
+      "sun"
+    ],
+    "output": "life"
+  },
+  {
+    "inputs": [
+      "karma",
+      "justice"
+    ],
+    "output": "balance"
+  },
+  {
+    "inputs": [
+      "afterlife",
+      "soul"
+    ],
+    "output": "heaven"
+  },
+  {
+    "inputs": [
+      "afterlife",
+      "demon"
+    ],
+    "output": "hell"
+  },
+  {
+    "inputs": [
+      "eternity",
+      "soul"
+    ],
+    "output": "immortality"
+  },
+  {
+    "inputs": [
+      "immortality",
+      "human"
+    ],
+    "output": "god"
+  },
+  {
+    "inputs": [
+      "consciousness",
+      "god"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "antimatter",
+      "quantum"
+    ],
+    "output": "singularity"
+  },
+  {
+    "inputs": [
+      "void",
+      "creation"
+    ],
+    "output": "universe"
+  },
+  {
+    "inputs": [
+      "eternity",
+      "god"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "coral",
+      "ocean"
+    ],
+    "output": "limestone"
+  },
+  {
+    "inputs": [
+      "shell",
+      "pressure"
+    ],
+    "output": "limestone"
+  },
+  {
+    "inputs": [
+      "marble",
+      "tool"
+    ],
+    "output": "monument"
+  },
+  {
+    "inputs": [
+      "marble",
+      "human"
+    ],
+    "output": "art"
+  },
+  {
+    "inputs": [
+      "granite",
+      "mountain"
+    ],
+    "output": "cave"
+  },
+  {
+    "inputs": [
+      "granite",
+      "tool"
+    ],
+    "output": "stone"
+  },
+  {
+    "inputs": [
+      "shell",
+      "fire"
+    ],
+    "output": "limestone"
+  },
+  {
+    "inputs": [
+      "amber",
+      "insect"
+    ],
+    "output": "fossil"
+  },
+  {
+    "inputs": [
+      "fossil",
+      "earth"
+    ],
+    "output": "oil"
+  },
+  {
+    "inputs": [
+      "coal",
+      "heat"
+    ],
+    "output": "oil"
+  },
+  {
+    "inputs": [
+      "oil",
+      "fire"
+    ],
+    "output": "heat"
+  },
+  {
+    "inputs": [
+      "oil",
+      "machine"
+    ],
+    "output": "engine"
+  },
+  {
+    "inputs": [
+      "coal",
+      "machine"
+    ],
+    "output": "engine"
+  },
+  {
+    "inputs": [
+      "coal_mine",
+      "earth"
+    ],
+    "output": "coal"
+  },
+  {
+    "inputs": [
+      "coal_mine",
+      "human"
+    ],
+    "output": "coal"
+  },
+  {
+    "inputs": [
+      "photosynthesis",
+      "oxygen"
+    ],
+    "output": "ozone"
+  },
+  {
+    "inputs": [
+      "carbon",
+      "fire"
+    ],
+    "output": "smoke"
+  },
+  {
+    "inputs": [
+      "ozone",
+      "atmosphere"
+    ],
+    "output": "atmosphere"
+  },
+  {
+    "inputs": [
+      "windmill",
+      "wind"
+    ],
+    "output": "electricity"
+  },
+  {
+    "inputs": [
+      "dam",
+      "water"
+    ],
+    "output": "electricity"
+  },
+  {
+    "inputs": [
+      "generator",
+      "turbine"
+    ],
+    "output": "electricity"
+  },
+  {
+    "inputs": [
+      "motor",
+      "wheel"
+    ],
+    "output": "car"
+  },
+  {
+    "inputs": [
+      "motor",
+      "boat"
+    ],
+    "output": "ship"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "rocket"
+    ],
+    "output": "astronaut"
+  },
+  {
+    "inputs": [
+      "rocket",
+      "space_station"
+    ],
+    "output": "space_station"
+  },
+  {
+    "inputs": [
+      "astronaut",
+      "moon"
+    ],
+    "output": "moon"
+  },
+  {
+    "inputs": [
+      "astronaut",
+      "planet"
+    ],
+    "output": "planet"
+  },
+  {
+    "inputs": [
+      "space_station",
+      "telescope_space"
+    ],
+    "output": "galaxy"
+  },
+  {
+    "inputs": [
+      "telescope_space",
+      "nebula"
+    ],
+    "output": "galaxy"
+  },
+  {
+    "inputs": [
+      "telescope_space",
+      "star"
+    ],
+    "output": "sun"
+  },
+  {
+    "inputs": [
+      "telescope_space",
+      "black_hole"
+    ],
+    "output": "void"
+  },
+  {
+    "inputs": [
+      "invention",
+      "machine"
+    ],
+    "output": "factory"
+  },
+  {
+    "inputs": [
+      "invention",
+      "medicine"
+    ],
+    "output": "medicine_advanced"
+  },
+  {
+    "inputs": [
+      "invention",
+      "electricity"
+    ],
+    "output": "computer"
+  },
+  {
+    "inputs": [
+      "harmony",
+      "order"
+    ],
+    "output": "peace"
+  },
+  {
+    "inputs": [
+      "singularity",
+      "ai"
+    ],
+    "output": "creation"
+  },
+  {
+    "inputs": [
+      "creation",
+      "life"
+    ],
+    "output": "universe"
+  },
+  {
+    "inputs": [
+      "creation",
+      "chaos"
+    ],
+    "output": "big_bang"
+  },
+  {
+    "inputs": [
+      "sea_serpent",
+      "ocean"
+    ],
+    "output": "sea_serpent"
+  },
+  {
+    "inputs": [
+      "sea_serpent",
+      "dragon"
+    ],
+    "output": "leviathan"
+  },
+  {
+    "inputs": [
+      "ice_dragon",
+      "glacier"
+    ],
+    "output": "ice_dragon"
+  },
+  {
+    "inputs": [
+      "monster",
+      "evolution"
+    ],
+    "output": "dragon"
+  },
+  {
+    "inputs": [
+      "phoenix",
+      "sun"
+    ],
+    "output": "phoenix"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "mountain"
+    ],
+    "output": "volcano"
+  },
+  {
+    "inputs": [
+      "unicorn",
+      "forest"
+    ],
+    "output": "elf"
+  },
+  {
+    "inputs": [
+      "god_of_war",
+      "warrior"
+    ],
+    "output": "war"
+  },
+  {
+    "inputs": [
+      "god_of_sea",
+      "ocean"
+    ],
+    "output": "tsunami"
+  },
+  {
+    "inputs": [
+      "titan",
+      "earthquake"
+    ],
+    "output": "earthquake"
+  },
+  {
+    "inputs": [
+      "oracle",
+      "wisdom"
+    ],
+    "output": "fate"
+  },
+  {
+    "inputs": [
+      "demigod",
+      "war"
+    ],
+    "output": "god_of_war"
+  },
+  {
+    "inputs": [
+      "hydra_elder",
+      "ocean"
+    ],
+    "output": "leviathan"
+  },
+  {
+    "inputs": [
+      "griffin_elder",
+      "eagle"
+    ],
+    "output": "griffin_elder"
+  },
+  {
+    "inputs": [
+      "salt_water",
+      "fish"
+    ],
+    "output": "ocean"
+  },
+  {
+    "inputs": [
+      "salt_water",
+      "cold"
+    ],
+    "output": "glacier"
+  },
+  {
+    "inputs": [
+      "salt_water",
+      "sun"
+    ],
+    "output": "salt"
+  },
+  {
+    "inputs": [
+      "salt_water",
+      "heat"
+    ],
+    "output": "salt"
+  },
+  {
+    "inputs": [
+      "light",
+      "stone"
+    ],
+    "output": "crystal"
+  },
+  {
+    "inputs": [
+      "light",
+      "cloud"
+    ],
+    "output": "rainbow"
+  },
+  {
+    "inputs": [
+      "light",
+      "mirror"
+    ],
+    "output": "laser"
+  },
+  {
+    "inputs": [
+      "shadow",
+      "spirit"
+    ],
+    "output": "ghost"
+  },
+  {
+    "inputs": [
+      "shadow",
+      "night"
+    ],
+    "output": "night"
+  },
+  {
+    "inputs": [
+      "shadow",
+      "demon"
+    ],
+    "output": "demon"
+  },
+  {
+    "inputs": [
+      "river",
+      "city"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "city",
+      "trade"
+    ],
+    "output": "market"
+  },
+  {
+    "inputs": [
+      "city",
+      "wall"
+    ],
+    "output": "castle"
+  },
+  {
+    "inputs": [
+      "city",
+      "law"
+    ],
+    "output": "empire"
+  },
+  {
+    "inputs": [
+      "city",
+      "temple"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "city",
+      "library"
+    ],
+    "output": "university"
+  },
+  {
+    "inputs": [
+      "city",
+      "hospital"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "city",
+      "factory"
+    ],
+    "output": "industry"
+  },
+  {
+    "inputs": [
+      "village",
+      "temple"
+    ],
+    "output": "religion"
+  },
+  {
+    "inputs": [
+      "village",
+      "market"
+    ],
+    "output": "trade"
+  },
+  {
+    "inputs": [
+      "village",
+      "farm"
+    ],
+    "output": "harvest"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "sun"
+    ],
+    "output": "plankton"
+  },
+  {
+    "inputs": [
+      "fire",
+      "air"
+    ],
+    "output": "explosion"
+  },
+  {
+    "inputs": [
+      "cell",
+      "rain"
+    ],
+    "output": "bacteria"
+  },
+  {
+    "inputs": [
+      "tree",
+      "nut"
+    ],
+    "output": "nut"
+  },
+  {
+    "inputs": [
+      "grain",
+      "soil"
+    ],
+    "output": "rice"
+  },
+  {
+    "inputs": [
+      "soil",
+      "water"
+    ],
+    "output": "potato"
+  },
+  {
+    "inputs": [
+      "water",
+      "lily"
+    ],
+    "output": "lotus"
+  },
+  {
+    "inputs": [
+      "fish",
+      "cave"
+    ],
+    "output": "squid"
+  },
+  {
+    "inputs": [
+      "wood",
+      "carbon"
+    ],
+    "output": "pen"
+  },
+  {
+    "inputs": [
+      "herb",
+      "house"
+    ],
+    "output": "herb_garden"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "city"
+    ],
+    "output": "colosseum"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "shadow"
+    ],
+    "output": "ninja"
+  },
+  {
+    "inputs": [
+      "radiation",
+      "fire"
+    ],
+    "output": "nuclear"
+  },
+  {
+    "inputs": [
+      "metal",
+      "heat"
+    ],
+    "output": "aluminum"
+  },
+  {
+    "inputs": [
+      "wire",
+      "radio"
+    ],
+    "output": "telephone"
+  },
+  {
+    "inputs": [
+      "peace",
+      "human"
+    ],
+    "output": "freedom"
+  },
+  {
+    "inputs": [
+      "energy_concept",
+      "energy_concept"
+    ],
+    "output": "antimatter"
+  },
+  {
+    "inputs": [
+      "nebula",
+      "sun"
+    ],
+    "output": "star"
+  },
+  {
+    "inputs": [
+      "star",
+      "void"
+    ],
+    "output": "black_hole"
+  },
+  {
+    "inputs": [
+      "god",
+      "wisdom"
+    ],
+    "output": "oracle"
+  },
+  {
+    "inputs": [
+      "star",
+      "supernova"
+    ],
+    "output": "neutron_star"
+  },
+  {
+    "inputs": [
+      "cold",
+      "nitrogen"
+    ],
+    "output": "nitrogen"
+  },
+  {
+    "inputs": [
+      "water",
+      "nitrogen"
+    ],
+    "output": "nitrogen"
+  },
+  {
+    "inputs": [
+      "rain",
+      "lightning"
+    ],
+    "output": "cell"
+  },
+  {
+    "inputs": [
+      "earth",
+      "gold"
+    ],
+    "output": "gold_ore"
+  },
+  {
+    "inputs": [
+      "lobster",
+      "fish"
+    ],
+    "output": "crab"
+  },
+  {
+    "inputs": [
+      "bee",
+      "plant"
+    ],
+    "output": "honey"
+  },
+  {
+    "inputs": [
+      "wind",
+      "wind"
+    ],
+    "output": "tornado"
+  },
+  {
+    "inputs": [
+      "iron",
+      "armor"
+    ],
+    "output": "shield"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "mammal"
+    ],
+    "output": "whale"
+  },
+  {
+    "inputs": [
+      "copper",
+      "electricity"
+    ],
+    "output": "battery"
+  },
+  {
+    "inputs": [
+      "life",
+      "spirit"
+    ],
+    "output": "soul"
+  },
+  {
+    "inputs": [
+      "air",
+      "lightning"
+    ],
+    "output": "nitrogen"
+  },
+  {
+    "inputs": [
+      "snake",
+      "earth"
+    ],
+    "output": "spider"
+  },
+  {
+    "inputs": [
+      "wood",
+      "wood"
+    ],
+    "output": "fire_pit"
+  },
+  {
+    "inputs": [
+      "human",
+      "memory"
+    ],
+    "output": "memory"
+  },
+  {
+    "inputs": [
+      "human",
+      "knowledge"
+    ],
+    "output": "memory"
+  },
+  {
+    "inputs": [
+      "human",
+      "rainbow"
+    ],
+    "output": "luck"
+  },
+  {
+    "inputs": [
+      "human",
+      "family"
+    ],
+    "output": "love"
+  },
+  {
+    "inputs": [
+      "black_hole",
+      "void"
+    ],
+    "output": "dark_matter"
+  },
+  {
+    "inputs": [
+      "hydra",
+      "ocean"
+    ],
+    "output": "hydra_elder"
+  },
+  {
+    "inputs": [
+      "sun",
+      "death"
+    ],
+    "output": "red_giant"
+  },
+  {
+    "inputs": [
+      "charcoal",
+      "air"
+    ],
+    "output": "ash"
+  },
+  {
+    "inputs": [
+      "birth",
+      "cycle"
+    ],
+    "output": "aging"
+  },
+  {
+    "inputs": [
+      "aging",
+      "human"
+    ],
+    "output": "death"
+  },
+  {
+    "inputs": [
+      "night",
+      "spirit"
+    ],
+    "output": "vampire"
+  },
+  {
+    "inputs": [
+      "neutron_star",
+      "star"
+    ],
+    "output": "neutron_star"
+  },
+  {
+    "inputs": [
+      "soul",
+      "human"
+    ],
+    "output": "soul"
+  },
+  {
+    "inputs": [
+      "human",
+      "ghost"
+    ],
+    "output": "soul"
+  },
+  {
+    "inputs": [
+      "death",
+      "virus"
+    ],
+    "output": "zombie"
+  },
+  {
+    "inputs": [
+      "harmony",
+      "human"
+    ],
+    "output": "music"
+  },
+  {"inputs":["sun","moon"],"output":"time"},
+  {"inputs":["moon","night"],"output":"time"},
+  {"inputs":["crystal","crystal"],"output":"diamond"},
+  {"inputs":["gem","pressure"],"output":"diamond"},
+  {"inputs":["coal","pressure"],"output":"diamond"},
+  {"inputs":["quartz","fire"],"output":"diamond"},
+  {"inputs":["gem","gem"],"output":"diamond"},
+  {"inputs":["water","electricity"],"outputs":["hydrogen","oxygen"]},
+  {"inputs":["storm","volcano"],"outputs":["lightning","lava","ash"]},
+  {"inputs":["ghost","soul"],"outputs":["spirit","afterlife"]},
+  {"inputs":["glacier","mountain"],"output":"time"},
+  {"inputs":["horse","lightning"],"output":"pegasus"},
+  {"inputs":["horse","angel"],"output":"pegasus"},
+  {"inputs":["horse","cloud"],"output":"pegasus"},
+  {"inputs":["cloth","wood"],"output":"tent"},
+  {"inputs":["leather","wood"],"output":"tent"},
+  {"inputs":["wall","wall"],"output":"building"},
+  {"inputs":["house","stone"],"output":"building"},
+  {"inputs":["lightning","storm"],"output":"thunder"},
+  {"inputs":["storm","storm"],"output":"thunder"},
+  {"inputs":["bread","tomato"],"output":"pizza"},
+  {"inputs":["bread","cheese"],"output":"pizza"},
+  {"inputs":["mammal","wool"],"output":"sheep"},
+  {"inputs":["grass","wool"],"output":"sheep"},
+  {"inputs":["pizza","turtle"],"output":"ninja"},
+  {"inputs":["sheep","wolf"],"output":"werewolf"},
+  {"inputs":["moon","wolf"],"output":"werewolf"},
+  {"inputs":["human","wolf"],"output":"werewolf"},
+  {"inputs":["human","lightning"],"output":"frankenstein"},
+  {"inputs":["clay","lightning"],"output":"frankenstein"},
+  {"inputs":["sword","warrior"],"output":"samurai"},
+  {"inputs":["axe","warrior"],"output":"viking"},
+  {"inputs":["boat","warrior"],"output":"viking"},
+  {"inputs":["clay","magic"],"output":"golem"},
+  {"inputs":["magic","mud"],"output":"golem"},
+  {"inputs":["explosion_big","explosion_big"],"output":"nuclear_bomb"},
+  {"inputs":["sun","vampire"],"output":"ash"},
+  {"inputs":["human","robot"],"output":"cyborg"},
+  {"inputs":["ghost","house"],"output":"haunted_house"},
+  {"inputs":["shield","warrior"],"output":"spartan"},
+  {"inputs":["spear","warrior"],"output":"spartan"},
+  {"inputs":["shield","spear"],"output":"spartan"},
+  {"inputs":["horse","night"],"output":"zebra"},
+  {"inputs":["horse","shadow"],"output":"zebra"},
+  {"inputs":["moon","zebra"],"output":"werezebra"},
+  {"inputs":["wolf","zebra"],"output":"werezebra"},
+  {"inputs":["cat","jungle"],"output":"tiger"},
+  {"inputs":["jungle","lion"],"output":"tiger"},
+  {"inputs":["elephant","ice"],"output":"mammoth"},
+  {"inputs":["cold","elephant"],"output":"mammoth"},
+  {"inputs":["elephant","time"],"output":"mammoth"},
+  {"inputs":["ice","tiger"],"output":"sabertooth_tiger"},
+  {"inputs":["tiger","time"],"output":"sabertooth_tiger"},
+  {"inputs":["jungle","mammal"],"output":"elephant"},
+  {"inputs":["mammal","stone"],"output":"elephant"},
+  {"inputs":["fire","tornado"],"output":"fire_tornado"},
+  {"inputs":["beer","time"],"output":"whiskey"},
+  {"inputs":["beer","oak"],"output":"whiskey"},
+  {"inputs":["grain","oak"],"output":"whiskey"},
+  {"inputs":["sugar","yeast"],"output":"rum"},
+  {"inputs":["alcohol","sugar"],"output":"rum"},
+  {"inputs":["potato","yeast"],"output":"vodka"},
+  {"inputs":["potato","alcohol"],"output":"vodka"},
+  {"inputs":["wheat","alcohol"],"output":"vodka"},
+  {"inputs":["beer","tornado"],"output":"beer_tornado"},
+  {"inputs":["cheese","mammal"],"output":"mouse"},
+  {"inputs":["mammal","night"],"output":"bat"},
+  {"inputs":["frog","sun"],"output":"lizard"},
+  {"inputs":["reptile","sun"],"output":"lizard"},
+  {"inputs":["lightning","mouse"],"output":"pikachu"},
+  {"inputs":["nuclear_bomb","nuclear_bomb"],"output":"tsar_bomba"},
+  {"inputs":["tsar_bomba","tsar_bomba"],"output":"apocalypse"},
+  {"inputs":["shark","tornado"],"output":"sharknado"},
+  {"inputs":["lizard","radiation"],"output":"godzilla"},
+  {"inputs":["lizard","nuclear_bomb"],"output":"godzilla"},
+  {"inputs":["lightning","viking"],"output":"thor"},
+  {"inputs":["god","lightning"],"output":"zeus"},
+  {"inputs":["lightning","titan"],"output":"zeus"},
+  {"inputs":["snake","witch"],"output":"medusa"},
+  {"inputs":["human","snake"],"output":"medusa"},
+  {"inputs":["kraken","void"],"output":"cthulhu"},
+  {"inputs":["god","kraken"],"output":"cthulhu"},
+  {"inputs":["human","spider"],"output":"spiderman"},
+  {"inputs":["radiation","spider"],"output":"spiderman"},
+  {"inputs":["castle","vampire"],"output":"dracula"},
+  {"inputs":["bat","hero"],"output":"batman"},
+  {"inputs":["bat","human"],"output":"batman"},
+  {"inputs":["gem","metal"],"output":"ring"},
+  {"inputs":["gold","metal"],"output":"ring"},
+  {"inputs":["moon","werewolf"],"output":"lycan_lord"},
+  {"inputs":["ring","wizard"],"output":"gandalf"},
+  {"inputs":["human","time"],"output":"teenager"},
+  {"inputs":["internet","teenager"],"output":"influencer"},
+  {"inputs":["computer","human"],"output":"programmer"},
+  {"inputs":["coffee","programmer"],"output":"code"},
+  {"inputs":["computer","programmer"],"output":"code"},
+  {"inputs":["city","money"],"output":"capitalist"},
+  {"inputs":["human","money"],"output":"capitalist"},
+  {"inputs":["code","monkey"],"output":"code_monkey"},
+  {"inputs":["death","music"],"output":"siren"},
+  {"inputs":["human","meat"],"output":"muscle"},
+  {"inputs":["human","muscle"],"output":"neanderthal"},
+  {"inputs":["sand","storm"],"output":"sandstorm"},
+  {"inputs":["glass","water"],"output":"bottle"},
+  {"inputs":["air","glass"],"output":"bottle"},
+  {"inputs":["human","knife"],"output":"assassin"},
+  {"inputs":["dragon","ocean"],"output":"sea_dragon"},
+  {"inputs":["human","lion"],"output":"sphinx"},
+  {"inputs":["eagle","human"],"output":"sphinx"},
+  {"inputs":["fire","lion"],"output":"chimera"},
+  {"inputs":["dragon","lion"],"output":"chimera"},
+  {"inputs":["king","snake"],"output":"basilisk"},
+  {"inputs":["fire","snake"],"output":"basilisk"},
+  {"inputs":["lion","snake"],"output":"manticore"},
+  {"inputs":["horse","ocean"],"output":"kelpie"},
+  {"inputs":["horse","water"],"output":"kelpie"},
+  {"inputs":["eagle","mountain"],"output":"roc"},
+  {"inputs":["bird","giant"],"output":"roc"},
+  {"inputs":["elephant","giant"],"output":"behemoth"},
+  {"inputs":["mammoth","giant"],"output":"behemoth"},
+  {"inputs":["giant","wolf"],"output":"fenrir"},
+  {"inputs":["god","wolf"],"output":"fenrir"},
+  {"inputs":["giant","snake"],"output":"jormungandr"},
+  {"inputs":["dragon","giant"],"output":"jormungandr"},
+  {"inputs":["death","dog"],"output":"cerberus"},
+  {"inputs":["cow","human"],"output":"minotaur"},
+  {"inputs":["giant","human"],"output":"cyclops"},
+  {"inputs":["bird","human"],"output":"harpy"},
+  {"inputs":["eagle","witch"],"output":"harpy"},
+  {"inputs":["code","coffee"],"output":"java"},
+  {"inputs":["code","snake"],"output":"python"},
+  {"inputs":["programmer","snake"],"output":"python"},
+  {"inputs":["code","spider"],"output":"javascript"},
+  {"inputs":["code","crab"],"output":"rust_lang"},
+  {"inputs":["fruit","tree"],"output":"apple"},
+  {"inputs":["fruit","seed"],"output":"apple"},
+  {"inputs":["apple","computer"],"output":"apple_company"},
+  {"inputs":["frog","human"],"output":"diver"},
+  {"inputs":["muscle","muscle"],"output":"barbarian"},
+  {"inputs":["barbarian","muscle"],"output":"conan"},
+  {"inputs":["genie","lamp"],"output":"wish"},
+  {"inputs":["honey","human"],"output":"south_america"},
+  {"inputs":["human","sugar"],"output":"south_america"},
+  {"inputs":["apple","south_america"],"output":"apple_pie"},
+  {"inputs":["knife","knife"],"output":"scissors"},
+  {"inputs":["evolution","human"],"output":"body_hair"},
+  {"inputs":["mammal","time"],"output":"body_hair"},
+  {"inputs":["body_hair","scissors"],"output":"hair"},
+  {"inputs":["hair","human"],"output":"moustache"},
+  {"inputs":["human","moustache"],"output":"philosopher"}
+]
