@@ -50,8 +50,8 @@ export function gameReducer(state, action) {
         // First click: highlight in sidebar + show in slot A
         return { ...state, selectedId: clickedId, slotA: clickedId, slotB: null }
       }
-      // Second click: always combine (same element = self-combo attempt)
-      return doCombine(state, state.selectedId, clickedId)
+      // Second click: fill slot B, wait for user to press Combine
+      return { ...state, selectedId: null, slotB: clickedId }
     }
 
     case 'COMBINE_SLOTS': {

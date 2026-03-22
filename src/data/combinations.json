@@ -1450,13 +1450,6 @@
   },
   {
     "inputs": [
-      "bird",
-      "fire"
-    ],
-    "output": "eagle"
-  },
-  {
-    "inputs": [
       "mammal",
       "desert"
     ],
@@ -5277,154 +5270,2796 @@
     ],
     "output": "music"
   },
-  {"inputs":["sun","moon"],"output":"time"},
-  {"inputs":["moon","night"],"output":"time"},
-  {"inputs":["crystal","crystal"],"output":"diamond"},
-  {"inputs":["gem","pressure"],"output":"diamond"},
-  {"inputs":["coal","pressure"],"output":"diamond"},
-  {"inputs":["quartz","fire"],"output":"diamond"},
-  {"inputs":["gem","gem"],"output":"diamond"},
-  {"inputs":["water","electricity"],"outputs":["hydrogen","oxygen"]},
-  {"inputs":["storm","volcano"],"outputs":["lightning","lava","ash"]},
-  {"inputs":["ghost","soul"],"outputs":["spirit","afterlife"]},
-  {"inputs":["glacier","mountain"],"output":"time"},
-  {"inputs":["horse","lightning"],"output":"pegasus"},
-  {"inputs":["horse","angel"],"output":"pegasus"},
-  {"inputs":["horse","cloud"],"output":"pegasus"},
-  {"inputs":["cloth","wood"],"output":"tent"},
-  {"inputs":["leather","wood"],"output":"tent"},
-  {"inputs":["wall","wall"],"output":"building"},
-  {"inputs":["house","stone"],"output":"building"},
-  {"inputs":["lightning","storm"],"output":"thunder"},
-  {"inputs":["storm","storm"],"output":"thunder"},
-  {"inputs":["bread","tomato"],"output":"pizza"},
-  {"inputs":["bread","cheese"],"output":"pizza"},
-  {"inputs":["mammal","wool"],"output":"sheep"},
-  {"inputs":["grass","wool"],"output":"sheep"},
-  {"inputs":["pizza","turtle"],"output":"ninja"},
-  {"inputs":["sheep","wolf"],"output":"werewolf"},
-  {"inputs":["moon","wolf"],"output":"werewolf"},
-  {"inputs":["human","wolf"],"output":"werewolf"},
-  {"inputs":["human","lightning"],"output":"frankenstein"},
-  {"inputs":["clay","lightning"],"output":"frankenstein"},
-  {"inputs":["sword","warrior"],"output":"samurai"},
-  {"inputs":["axe","warrior"],"output":"viking"},
-  {"inputs":["boat","warrior"],"output":"viking"},
-  {"inputs":["clay","magic"],"output":"golem"},
-  {"inputs":["magic","mud"],"output":"golem"},
-  {"inputs":["explosion_big","explosion_big"],"output":"nuclear_bomb"},
-  {"inputs":["sun","vampire"],"output":"ash"},
-  {"inputs":["human","robot"],"output":"cyborg"},
-  {"inputs":["ghost","house"],"output":"haunted_house"},
-  {"inputs":["shield","warrior"],"output":"spartan"},
-  {"inputs":["spear","warrior"],"output":"spartan"},
-  {"inputs":["shield","spear"],"output":"spartan"},
-  {"inputs":["horse","night"],"output":"zebra"},
-  {"inputs":["horse","shadow"],"output":"zebra"},
-  {"inputs":["moon","zebra"],"output":"werezebra"},
-  {"inputs":["wolf","zebra"],"output":"werezebra"},
-  {"inputs":["cat","jungle"],"output":"tiger"},
-  {"inputs":["jungle","lion"],"output":"tiger"},
-  {"inputs":["elephant","ice"],"output":"mammoth"},
-  {"inputs":["cold","elephant"],"output":"mammoth"},
-  {"inputs":["elephant","time"],"output":"mammoth"},
-  {"inputs":["ice","tiger"],"output":"sabertooth_tiger"},
-  {"inputs":["tiger","time"],"output":"sabertooth_tiger"},
-  {"inputs":["jungle","mammal"],"output":"elephant"},
-  {"inputs":["mammal","stone"],"output":"elephant"},
-  {"inputs":["fire","tornado"],"output":"fire_tornado"},
-  {"inputs":["beer","time"],"output":"whiskey"},
-  {"inputs":["beer","oak"],"output":"whiskey"},
-  {"inputs":["grain","oak"],"output":"whiskey"},
-  {"inputs":["sugar","yeast"],"output":"rum"},
-  {"inputs":["alcohol","sugar"],"output":"rum"},
-  {"inputs":["potato","yeast"],"output":"vodka"},
-  {"inputs":["potato","alcohol"],"output":"vodka"},
-  {"inputs":["wheat","alcohol"],"output":"vodka"},
-  {"inputs":["beer","tornado"],"output":"beer_tornado"},
-  {"inputs":["cheese","mammal"],"output":"mouse"},
-  {"inputs":["mammal","night"],"output":"bat"},
-  {"inputs":["frog","sun"],"output":"lizard"},
-  {"inputs":["reptile","sun"],"output":"lizard"},
-  {"inputs":["lightning","mouse"],"output":"pikachu"},
-  {"inputs":["nuclear_bomb","nuclear_bomb"],"output":"tsar_bomba"},
-  {"inputs":["tsar_bomba","tsar_bomba"],"output":"apocalypse"},
-  {"inputs":["shark","tornado"],"output":"sharknado"},
-  {"inputs":["lizard","radiation"],"output":"godzilla"},
-  {"inputs":["lizard","nuclear_bomb"],"output":"godzilla"},
-  {"inputs":["lightning","viking"],"output":"thor"},
-  {"inputs":["god","lightning"],"output":"zeus"},
-  {"inputs":["lightning","titan"],"output":"zeus"},
-  {"inputs":["snake","witch"],"output":"medusa"},
-  {"inputs":["human","snake"],"output":"medusa"},
-  {"inputs":["kraken","void"],"output":"cthulhu"},
-  {"inputs":["god","kraken"],"output":"cthulhu"},
-  {"inputs":["human","spider"],"output":"spiderman"},
-  {"inputs":["radiation","spider"],"output":"spiderman"},
-  {"inputs":["castle","vampire"],"output":"dracula"},
-  {"inputs":["bat","hero"],"output":"batman"},
-  {"inputs":["bat","human"],"output":"batman"},
-  {"inputs":["gem","metal"],"output":"ring"},
-  {"inputs":["gold","metal"],"output":"ring"},
-  {"inputs":["moon","werewolf"],"output":"lycan_lord"},
-  {"inputs":["ring","wizard"],"output":"gandalf"},
-  {"inputs":["human","time"],"output":"teenager"},
-  {"inputs":["internet","teenager"],"output":"influencer"},
-  {"inputs":["computer","human"],"output":"programmer"},
-  {"inputs":["coffee","programmer"],"output":"code"},
-  {"inputs":["computer","programmer"],"output":"code"},
-  {"inputs":["city","money"],"output":"capitalist"},
-  {"inputs":["human","money"],"output":"capitalist"},
-  {"inputs":["code","monkey"],"output":"code_monkey"},
-  {"inputs":["death","music"],"output":"siren"},
-  {"inputs":["human","meat"],"output":"muscle"},
-  {"inputs":["human","muscle"],"output":"neanderthal"},
-  {"inputs":["sand","storm"],"output":"sandstorm"},
-  {"inputs":["glass","water"],"output":"bottle"},
-  {"inputs":["air","glass"],"output":"bottle"},
-  {"inputs":["human","knife"],"output":"assassin"},
-  {"inputs":["dragon","ocean"],"output":"sea_dragon"},
-  {"inputs":["human","lion"],"output":"sphinx"},
-  {"inputs":["eagle","human"],"output":"sphinx"},
-  {"inputs":["fire","lion"],"output":"chimera"},
-  {"inputs":["dragon","lion"],"output":"chimera"},
-  {"inputs":["king","snake"],"output":"basilisk"},
-  {"inputs":["fire","snake"],"output":"basilisk"},
-  {"inputs":["lion","snake"],"output":"manticore"},
-  {"inputs":["horse","ocean"],"output":"kelpie"},
-  {"inputs":["horse","water"],"output":"kelpie"},
-  {"inputs":["eagle","mountain"],"output":"roc"},
-  {"inputs":["bird","giant"],"output":"roc"},
-  {"inputs":["elephant","giant"],"output":"behemoth"},
-  {"inputs":["mammoth","giant"],"output":"behemoth"},
-  {"inputs":["giant","wolf"],"output":"fenrir"},
-  {"inputs":["god","wolf"],"output":"fenrir"},
-  {"inputs":["giant","snake"],"output":"jormungandr"},
-  {"inputs":["dragon","giant"],"output":"jormungandr"},
-  {"inputs":["death","dog"],"output":"cerberus"},
-  {"inputs":["cow","human"],"output":"minotaur"},
-  {"inputs":["giant","human"],"output":"cyclops"},
-  {"inputs":["bird","human"],"output":"harpy"},
-  {"inputs":["eagle","witch"],"output":"harpy"},
-  {"inputs":["code","coffee"],"output":"java"},
-  {"inputs":["code","snake"],"output":"python"},
-  {"inputs":["programmer","snake"],"output":"python"},
-  {"inputs":["code","spider"],"output":"javascript"},
-  {"inputs":["code","crab"],"output":"rust_lang"},
-  {"inputs":["fruit","tree"],"output":"apple"},
-  {"inputs":["fruit","seed"],"output":"apple"},
-  {"inputs":["apple","computer"],"output":"apple_company"},
-  {"inputs":["frog","human"],"output":"diver"},
-  {"inputs":["muscle","muscle"],"output":"barbarian"},
-  {"inputs":["barbarian","muscle"],"output":"conan"},
-  {"inputs":["genie","lamp"],"output":"wish"},
-  {"inputs":["honey","human"],"output":"south_america"},
-  {"inputs":["human","sugar"],"output":"south_america"},
-  {"inputs":["apple","south_america"],"output":"apple_pie"},
-  {"inputs":["knife","knife"],"output":"scissors"},
-  {"inputs":["evolution","human"],"output":"body_hair"},
-  {"inputs":["mammal","time"],"output":"body_hair"},
-  {"inputs":["body_hair","scissors"],"output":"hair"},
-  {"inputs":["hair","human"],"output":"moustache"},
-  {"inputs":["human","moustache"],"output":"philosopher"}
+  {
+    "inputs": [
+      "sun",
+      "moon"
+    ],
+    "output": "time"
+  },
+  {
+    "inputs": [
+      "moon",
+      "night"
+    ],
+    "output": "time"
+  },
+  {
+    "inputs": [
+      "crystal",
+      "crystal"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "gem",
+      "pressure"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "coal",
+      "pressure"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "quartz",
+      "fire"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "gem",
+      "gem"
+    ],
+    "output": "diamond"
+  },
+  {
+    "inputs": [
+      "water",
+      "electricity"
+    ],
+    "outputs": [
+      "hydrogen",
+      "oxygen"
+    ]
+  },
+  {
+    "inputs": [
+      "storm",
+      "volcano"
+    ],
+    "outputs": [
+      "lightning",
+      "lava",
+      "ash"
+    ]
+  },
+  {
+    "inputs": [
+      "ghost",
+      "soul"
+    ],
+    "outputs": [
+      "spirit",
+      "afterlife"
+    ]
+  },
+  {
+    "inputs": [
+      "glacier",
+      "mountain"
+    ],
+    "output": "time"
+  },
+  {
+    "inputs": [
+      "horse",
+      "lightning"
+    ],
+    "output": "pegasus"
+  },
+  {
+    "inputs": [
+      "horse",
+      "angel"
+    ],
+    "output": "pegasus"
+  },
+  {
+    "inputs": [
+      "horse",
+      "cloud"
+    ],
+    "output": "pegasus"
+  },
+  {
+    "inputs": [
+      "cloth",
+      "wood"
+    ],
+    "output": "tent"
+  },
+  {
+    "inputs": [
+      "leather",
+      "wood"
+    ],
+    "output": "tent"
+  },
+  {
+    "inputs": [
+      "wall",
+      "wall"
+    ],
+    "output": "building"
+  },
+  {
+    "inputs": [
+      "house",
+      "stone"
+    ],
+    "output": "building"
+  },
+  {
+    "inputs": [
+      "lightning",
+      "storm"
+    ],
+    "output": "thunder"
+  },
+  {
+    "inputs": [
+      "storm",
+      "storm"
+    ],
+    "output": "thunder"
+  },
+  {
+    "inputs": [
+      "bread",
+      "tomato"
+    ],
+    "output": "pizza"
+  },
+  {
+    "inputs": [
+      "bread",
+      "cheese"
+    ],
+    "output": "pizza"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "wool"
+    ],
+    "output": "sheep"
+  },
+  {
+    "inputs": [
+      "grass",
+      "wool"
+    ],
+    "output": "sheep"
+  },
+  {
+    "inputs": [
+      "pizza",
+      "turtle"
+    ],
+    "output": "ninja"
+  },
+  {
+    "inputs": [
+      "sheep",
+      "wolf"
+    ],
+    "output": "werewolf"
+  },
+  {
+    "inputs": [
+      "moon",
+      "wolf"
+    ],
+    "output": "werewolf"
+  },
+  {
+    "inputs": [
+      "human",
+      "wolf"
+    ],
+    "output": "werewolf"
+  },
+  {
+    "inputs": [
+      "human",
+      "lightning"
+    ],
+    "output": "frankenstein"
+  },
+  {
+    "inputs": [
+      "clay",
+      "lightning"
+    ],
+    "output": "frankenstein"
+  },
+  {
+    "inputs": [
+      "sword",
+      "warrior"
+    ],
+    "output": "samurai"
+  },
+  {
+    "inputs": [
+      "axe",
+      "warrior"
+    ],
+    "output": "viking"
+  },
+  {
+    "inputs": [
+      "boat",
+      "warrior"
+    ],
+    "output": "viking"
+  },
+  {
+    "inputs": [
+      "clay",
+      "magic"
+    ],
+    "output": "golem"
+  },
+  {
+    "inputs": [
+      "magic",
+      "mud"
+    ],
+    "output": "golem"
+  },
+  {
+    "inputs": [
+      "explosion_big",
+      "explosion_big"
+    ],
+    "output": "nuclear_bomb"
+  },
+  {
+    "inputs": [
+      "sun",
+      "vampire"
+    ],
+    "output": "ash"
+  },
+  {
+    "inputs": [
+      "human",
+      "robot"
+    ],
+    "output": "cyborg"
+  },
+  {
+    "inputs": [
+      "ghost",
+      "house"
+    ],
+    "output": "haunted_house"
+  },
+  {
+    "inputs": [
+      "shield",
+      "warrior"
+    ],
+    "output": "spartan"
+  },
+  {
+    "inputs": [
+      "spear",
+      "warrior"
+    ],
+    "output": "spartan"
+  },
+  {
+    "inputs": [
+      "shield",
+      "spear"
+    ],
+    "output": "spartan"
+  },
+  {
+    "inputs": [
+      "horse",
+      "night"
+    ],
+    "output": "zebra"
+  },
+  {
+    "inputs": [
+      "horse",
+      "shadow"
+    ],
+    "output": "zebra"
+  },
+  {
+    "inputs": [
+      "moon",
+      "zebra"
+    ],
+    "output": "werezebra"
+  },
+  {
+    "inputs": [
+      "wolf",
+      "zebra"
+    ],
+    "output": "werezebra"
+  },
+  {
+    "inputs": [
+      "cat",
+      "jungle"
+    ],
+    "output": "tiger"
+  },
+  {
+    "inputs": [
+      "jungle",
+      "lion"
+    ],
+    "output": "tiger"
+  },
+  {
+    "inputs": [
+      "elephant",
+      "ice"
+    ],
+    "output": "mammoth"
+  },
+  {
+    "inputs": [
+      "cold",
+      "elephant"
+    ],
+    "output": "mammoth"
+  },
+  {
+    "inputs": [
+      "elephant",
+      "time"
+    ],
+    "output": "mammoth"
+  },
+  {
+    "inputs": [
+      "ice",
+      "tiger"
+    ],
+    "output": "sabertooth_tiger"
+  },
+  {
+    "inputs": [
+      "tiger",
+      "time"
+    ],
+    "output": "sabertooth_tiger"
+  },
+  {
+    "inputs": [
+      "jungle",
+      "mammal"
+    ],
+    "output": "elephant"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "stone"
+    ],
+    "output": "elephant"
+  },
+  {
+    "inputs": [
+      "fire",
+      "tornado"
+    ],
+    "output": "fire_tornado"
+  },
+  {
+    "inputs": [
+      "beer",
+      "time"
+    ],
+    "output": "whiskey"
+  },
+  {
+    "inputs": [
+      "beer",
+      "oak"
+    ],
+    "output": "whiskey"
+  },
+  {
+    "inputs": [
+      "grain",
+      "oak"
+    ],
+    "output": "whiskey"
+  },
+  {
+    "inputs": [
+      "sugar",
+      "yeast"
+    ],
+    "output": "rum"
+  },
+  {
+    "inputs": [
+      "alcohol",
+      "sugar"
+    ],
+    "output": "rum"
+  },
+  {
+    "inputs": [
+      "potato",
+      "yeast"
+    ],
+    "output": "vodka"
+  },
+  {
+    "inputs": [
+      "potato",
+      "alcohol"
+    ],
+    "output": "vodka"
+  },
+  {
+    "inputs": [
+      "wheat",
+      "alcohol"
+    ],
+    "output": "vodka"
+  },
+  {
+    "inputs": [
+      "beer",
+      "tornado"
+    ],
+    "output": "beer_tornado"
+  },
+  {
+    "inputs": [
+      "cheese",
+      "mammal"
+    ],
+    "output": "mouse"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "night"
+    ],
+    "output": "bat"
+  },
+  {
+    "inputs": [
+      "frog",
+      "sun"
+    ],
+    "output": "lizard"
+  },
+  {
+    "inputs": [
+      "reptile",
+      "sun"
+    ],
+    "output": "lizard"
+  },
+  {
+    "inputs": [
+      "lightning",
+      "mouse"
+    ],
+    "output": "pikachu"
+  },
+  {
+    "inputs": [
+      "nuclear_bomb",
+      "nuclear_bomb"
+    ],
+    "output": "tsar_bomba"
+  },
+  {
+    "inputs": [
+      "tsar_bomba",
+      "tsar_bomba"
+    ],
+    "output": "apocalypse"
+  },
+  {
+    "inputs": [
+      "shark",
+      "tornado"
+    ],
+    "output": "sharknado"
+  },
+  {
+    "inputs": [
+      "lizard",
+      "radiation"
+    ],
+    "output": "godzilla"
+  },
+  {
+    "inputs": [
+      "lizard",
+      "nuclear_bomb"
+    ],
+    "output": "godzilla"
+  },
+  {
+    "inputs": [
+      "lightning",
+      "viking"
+    ],
+    "output": "thor"
+  },
+  {
+    "inputs": [
+      "god",
+      "lightning"
+    ],
+    "output": "zeus"
+  },
+  {
+    "inputs": [
+      "lightning",
+      "titan"
+    ],
+    "output": "zeus"
+  },
+  {
+    "inputs": [
+      "snake",
+      "witch"
+    ],
+    "output": "medusa"
+  },
+  {
+    "inputs": [
+      "human",
+      "snake"
+    ],
+    "output": "medusa"
+  },
+  {
+    "inputs": [
+      "kraken",
+      "void"
+    ],
+    "output": "cthulhu"
+  },
+  {
+    "inputs": [
+      "god",
+      "kraken"
+    ],
+    "output": "cthulhu"
+  },
+  {
+    "inputs": [
+      "human",
+      "spider"
+    ],
+    "output": "spiderman"
+  },
+  {
+    "inputs": [
+      "radiation",
+      "spider"
+    ],
+    "output": "spiderman"
+  },
+  {
+    "inputs": [
+      "castle",
+      "vampire"
+    ],
+    "output": "dracula"
+  },
+  {
+    "inputs": [
+      "bat",
+      "hero"
+    ],
+    "output": "batman"
+  },
+  {
+    "inputs": [
+      "bat",
+      "human"
+    ],
+    "output": "batman"
+  },
+  {
+    "inputs": [
+      "gem",
+      "metal"
+    ],
+    "output": "ring"
+  },
+  {
+    "inputs": [
+      "gold",
+      "metal"
+    ],
+    "output": "ring"
+  },
+  {
+    "inputs": [
+      "moon",
+      "werewolf"
+    ],
+    "output": "lycan_lord"
+  },
+  {
+    "inputs": [
+      "ring",
+      "wizard"
+    ],
+    "output": "gandalf"
+  },
+  {
+    "inputs": [
+      "human",
+      "time"
+    ],
+    "output": "teenager"
+  },
+  {
+    "inputs": [
+      "internet",
+      "teenager"
+    ],
+    "output": "influencer"
+  },
+  {
+    "inputs": [
+      "computer",
+      "human"
+    ],
+    "output": "programmer"
+  },
+  {
+    "inputs": [
+      "coffee",
+      "programmer"
+    ],
+    "output": "code"
+  },
+  {
+    "inputs": [
+      "computer",
+      "programmer"
+    ],
+    "output": "code"
+  },
+  {
+    "inputs": [
+      "city",
+      "money"
+    ],
+    "output": "capitalist"
+  },
+  {
+    "inputs": [
+      "human",
+      "money"
+    ],
+    "output": "capitalist"
+  },
+  {
+    "inputs": [
+      "code",
+      "monkey"
+    ],
+    "output": "code_monkey"
+  },
+  {
+    "inputs": [
+      "death",
+      "music"
+    ],
+    "output": "siren"
+  },
+  {
+    "inputs": [
+      "human",
+      "meat"
+    ],
+    "output": "muscle"
+  },
+  {
+    "inputs": [
+      "human",
+      "muscle"
+    ],
+    "output": "neanderthal"
+  },
+  {
+    "inputs": [
+      "sand",
+      "storm"
+    ],
+    "output": "sandstorm"
+  },
+  {
+    "inputs": [
+      "glass",
+      "water"
+    ],
+    "output": "bottle"
+  },
+  {
+    "inputs": [
+      "air",
+      "glass"
+    ],
+    "output": "bottle"
+  },
+  {
+    "inputs": [
+      "human",
+      "knife"
+    ],
+    "output": "assassin"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "ocean"
+    ],
+    "output": "sea_dragon"
+  },
+  {
+    "inputs": [
+      "human",
+      "lion"
+    ],
+    "output": "sphinx"
+  },
+  {
+    "inputs": [
+      "eagle",
+      "human"
+    ],
+    "output": "sphinx"
+  },
+  {
+    "inputs": [
+      "fire",
+      "lion"
+    ],
+    "output": "chimera"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "lion"
+    ],
+    "output": "chimera"
+  },
+  {
+    "inputs": [
+      "king",
+      "snake"
+    ],
+    "output": "basilisk"
+  },
+  {
+    "inputs": [
+      "fire",
+      "snake"
+    ],
+    "output": "basilisk"
+  },
+  {
+    "inputs": [
+      "lion",
+      "snake"
+    ],
+    "output": "manticore"
+  },
+  {
+    "inputs": [
+      "horse",
+      "ocean"
+    ],
+    "output": "kelpie"
+  },
+  {
+    "inputs": [
+      "horse",
+      "water"
+    ],
+    "output": "kelpie"
+  },
+  {
+    "inputs": [
+      "eagle",
+      "mountain"
+    ],
+    "output": "roc"
+  },
+  {
+    "inputs": [
+      "bird",
+      "giant"
+    ],
+    "output": "roc"
+  },
+  {
+    "inputs": [
+      "elephant",
+      "giant"
+    ],
+    "output": "behemoth"
+  },
+  {
+    "inputs": [
+      "mammoth",
+      "giant"
+    ],
+    "output": "behemoth"
+  },
+  {
+    "inputs": [
+      "giant",
+      "wolf"
+    ],
+    "output": "fenrir"
+  },
+  {
+    "inputs": [
+      "god",
+      "wolf"
+    ],
+    "output": "fenrir"
+  },
+  {
+    "inputs": [
+      "giant",
+      "snake"
+    ],
+    "output": "jormungandr"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "giant"
+    ],
+    "output": "jormungandr"
+  },
+  {
+    "inputs": [
+      "death",
+      "dog"
+    ],
+    "output": "cerberus"
+  },
+  {
+    "inputs": [
+      "cow",
+      "human"
+    ],
+    "output": "minotaur"
+  },
+  {
+    "inputs": [
+      "giant",
+      "human"
+    ],
+    "output": "cyclops"
+  },
+  {
+    "inputs": [
+      "bird",
+      "human"
+    ],
+    "output": "harpy"
+  },
+  {
+    "inputs": [
+      "eagle",
+      "witch"
+    ],
+    "output": "harpy"
+  },
+  {
+    "inputs": [
+      "code",
+      "coffee"
+    ],
+    "output": "java"
+  },
+  {
+    "inputs": [
+      "code",
+      "snake"
+    ],
+    "output": "python"
+  },
+  {
+    "inputs": [
+      "programmer",
+      "snake"
+    ],
+    "output": "python"
+  },
+  {
+    "inputs": [
+      "code",
+      "spider"
+    ],
+    "output": "javascript"
+  },
+  {
+    "inputs": [
+      "code",
+      "crab"
+    ],
+    "output": "rust_lang"
+  },
+  {
+    "inputs": [
+      "fruit",
+      "tree"
+    ],
+    "output": "apple"
+  },
+  {
+    "inputs": [
+      "fruit",
+      "seed"
+    ],
+    "output": "apple"
+  },
+  {
+    "inputs": [
+      "apple",
+      "computer"
+    ],
+    "output": "apple_company"
+  },
+  {
+    "inputs": [
+      "frog",
+      "human"
+    ],
+    "output": "diver"
+  },
+  {
+    "inputs": [
+      "muscle",
+      "muscle"
+    ],
+    "output": "barbarian"
+  },
+  {
+    "inputs": [
+      "barbarian",
+      "muscle"
+    ],
+    "output": "conan"
+  },
+  {
+    "inputs": [
+      "genie",
+      "lamp"
+    ],
+    "output": "wish"
+  },
+  {
+    "inputs": [
+      "honey",
+      "human"
+    ],
+    "output": "south_america"
+  },
+  {
+    "inputs": [
+      "human",
+      "sugar"
+    ],
+    "output": "south_america"
+  },
+  {
+    "inputs": [
+      "apple",
+      "south_america"
+    ],
+    "output": "apple_pie"
+  },
+  {
+    "inputs": [
+      "knife",
+      "knife"
+    ],
+    "output": "scissors"
+  },
+  {
+    "inputs": [
+      "evolution",
+      "human"
+    ],
+    "output": "body_hair"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "time"
+    ],
+    "output": "body_hair"
+  },
+  {
+    "inputs": [
+      "body_hair",
+      "scissors"
+    ],
+    "output": "hair"
+  },
+  {
+    "inputs": [
+      "hair",
+      "human"
+    ],
+    "output": "moustache"
+  },
+  {
+    "inputs": [
+      "human",
+      "moustache"
+    ],
+    "output": "philosopher"
+  },
+  {
+    "inputs": [
+      "dragon",
+      "pikachu"
+    ],
+    "output": "charizard"
+  },
+  {
+    "inputs": [
+      "bird",
+      "wind"
+    ],
+    "output": "wings"
+  },
+  {
+    "inputs": [
+      "snake",
+      "wings"
+    ],
+    "output": "dragon"
+  },
+  {
+    "inputs": [
+      "lizard",
+      "wings"
+    ],
+    "output": "dragon"
+  },
+  {
+    "inputs": [
+      "elf",
+      "wings"
+    ],
+    "output": "fairy"
+  },
+  {
+    "inputs": [
+      "human",
+      "wings"
+    ],
+    "output": "fairy"
+  },
+  {
+    "inputs": [
+      "heat",
+      "wave"
+    ],
+    "output": "heatwave"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "ocean"
+    ],
+    "output": "ocean_world"
+  },
+  {
+    "inputs": [
+      "human",
+      "star"
+    ],
+    "output": "starboy"
+  },
+  {
+    "inputs": [
+      "rainbow",
+      "rainbow"
+    ],
+    "output": "double_rainbow"
+  },
+  {
+    "inputs": [
+      "water",
+      "air"
+    ],
+    "output": "cold"
+  },
+  {
+    "inputs": [
+      "lava",
+      "water"
+    ],
+    "output": "stone"
+  },
+  {
+    "inputs": [
+      "earth",
+      "water"
+    ],
+    "output": "seed"
+  },
+  {
+    "inputs": [
+      "algae",
+      "ocean"
+    ],
+    "output": "plankton"
+  },
+  {
+    "inputs": [
+      "protein",
+      "dna"
+    ],
+    "output": "evolution"
+  },
+  {
+    "inputs": [
+      "mammal",
+      "fire"
+    ],
+    "output": "human"
+  },
+  {
+    "inputs": [
+      "earth",
+      "cold"
+    ],
+    "output": "night"
+  },
+  {
+    "inputs": [
+      "ocean",
+      "heat"
+    ],
+    "output": "salt"
+  },
+  {
+    "inputs": [
+      "plasma",
+      "plasma"
+    ],
+    "output": "star"
+  },
+  {
+    "inputs": [
+      "virus",
+      "human"
+    ],
+    "output": "death"
+  },
+  {
+    "inputs": [
+      "human",
+      "human"
+    ],
+    "output": "love"
+  },
+  {
+    "inputs": [
+      "life",
+      "death"
+    ],
+    "output": "chaos"
+  },
+  {
+    "inputs": [
+      "stone",
+      "fire"
+    ],
+    "output": "gold"
+  },
+  {
+    "inputs": [
+      "soil",
+      "rain"
+    ],
+    "output": "fungi"
+  },
+  {
+    "inputs": [
+      "insect",
+      "flower"
+    ],
+    "output": "bee"
+  },
+  {
+    "inputs": [
+      "city",
+      "human"
+    ],
+    "output": "market"
+  },
+  {
+    "inputs": [
+      "sun",
+      "earth"
+    ],
+    "output": "radiation"
+  },
+  {
+    "inputs": [
+      "eagle",
+      "fire"
+    ],
+    "output": "phoenix"
+  },
+  {
+    "inputs": [
+      "hero",
+      "ghost"
+    ],
+    "output": "myth"
+  },
+  {
+    "inputs": [
+      "star",
+      "death"
+    ],
+    "output": "black_hole"
+  },
+  {
+    "inputs": [
+      "tree",
+      "seed"
+    ],
+    "output": "nut"
+  },
+  {
+    "inputs": [
+      "stone",
+      "desert"
+    ],
+    "output": "pyramid"
+  },
+  {
+    "inputs": [
+      "grain",
+      "yeast"
+    ],
+    "output": "alcohol"
+  },
+  {
+    "inputs": [
+      "chaos",
+      "human"
+    ],
+    "output": "monster"
+  },
+  {
+    "inputs": [
+      "human",
+      "crown"
+    ],
+    "output": "queen"
+  },
+  {
+    "inputs": [
+      "human",
+      "dream"
+    ],
+    "output": "thought"
+  },
+  {
+    "inputs": [
+      "engine",
+      "coal"
+    ],
+    "output": "train"
+  },
+  {
+    "inputs": [
+      "griffin",
+      "eagle"
+    ],
+    "output": "griffin_elder"
+  },
+  {
+    "inputs": [
+      "earth",
+      "explosion"
+    ],
+    "output": "crater"
+  },
+  {
+    "inputs": [
+      "lens",
+      "lens"
+    ],
+    "output": "glasses"
+  },
+  {
+    "inputs": [
+      "glass",
+      "metal"
+    ],
+    "output": "glasses"
+  },
+  {
+    "inputs": [
+      "glasses",
+      "sun"
+    ],
+    "output": "sunglasses"
+  },
+  {
+    "inputs": [
+      "glasses",
+      "light"
+    ],
+    "output": "sunglasses"
+  },
+  {
+    "inputs": [
+      "glasses",
+      "beach"
+    ],
+    "output": "sunglasses"
+  },
+  {
+    "inputs": [
+      "glasses",
+      "human"
+    ],
+    "output": "scholar"
+  },
+  {
+    "inputs": [
+      "glasses",
+      "book"
+    ],
+    "output": "scholar"
+  },
+  {
+    "id": "star+dragon",
+    "inputs": [
+      "star",
+      "dragon"
+    ],
+    "output": "blue_eyes_white_dragon",
+    "hint": "Legendary card"
+  },
+  {
+    "id": "book+scholar",
+    "inputs": [
+      "book",
+      "scholar"
+    ],
+    "output": "mad_man"
+  },
+  {
+    "inputs": [
+      "human",
+      "alcohol"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "beer"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "wine"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "whiskey"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "vodka"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "rum"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "human",
+      "mead"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "mad_man",
+      "science"
+    ],
+    "output": "mad_scientist"
+  },
+  {
+    "inputs": [
+      "mad_man",
+      "laboratory"
+    ],
+    "output": "mad_scientist"
+  },
+  {
+    "inputs": [
+      "star",
+      "wish"
+    ],
+    "output": "shooting_star"
+  },
+  {
+    "inputs": [
+      "night",
+      "elf"
+    ],
+    "output": "dark_elf"
+  },
+  {
+    "inputs": [
+      "moon",
+      "elf"
+    ],
+    "output": "dark_elf"
+  },
+  {
+    "inputs": [
+      "dark_elf",
+      "god"
+    ],
+    "output": "lolth"
+  },
+  {
+    "inputs": [
+      "bird",
+      "muscle"
+    ],
+    "output": "eagle"
+  },
+  {
+    "inputs": [
+      "bird",
+      "courage"
+    ],
+    "output": "eagle"
+  },
+  {
+    "inputs": [
+      "cat",
+      "courage"
+    ],
+    "output": "lion"
+  },
+  {
+    "inputs": [
+      "dog",
+      "courage"
+    ],
+    "output": "wolf"
+  },
+  {
+    "inputs": [
+      "bird",
+      "fire"
+    ],
+    "output": "phoenix"
+  },
+  {
+    "inputs": [
+      "poop",
+      "time"
+    ],
+    "output": "fertilizer"
+  },
+  {
+    "inputs": [
+      "poop",
+      "sun"
+    ],
+    "output": "fertilizer"
+  },
+  {
+    "inputs": [
+      "poop",
+      "music"
+    ],
+    "output": "brown_note"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "worm"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "fish"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "bird"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "insect"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "reptile"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "mammal"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "jellyfish"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "starfish"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "lobster"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "squid"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "seahorse"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "penguin"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "owl"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "parrot"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "hawk"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "deer"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "monkey"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "snake"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "spider"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "butterfly"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "bee"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "ant"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "frog"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "turtle"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "octopus"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "crab"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "whale"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "shark"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "eagle"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "lion"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "wolf"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "bear"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "horse"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "cow"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "pig"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "chicken"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "dog"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "cat"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "dinosaur"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "sheep"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "zebra"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "tiger"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "elephant"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "mammoth"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "sabertooth_tiger"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "mouse"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "bat"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "lizard"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "human"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "brown_note",
+      "city"
+    ],
+    "output": "mountain_of_poop"
+  },
+  {
+    "inputs": [
+      "cow",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "horse",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "sheep",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "pig",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "deer",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "elephant",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "mammoth",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "zebra",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "dog",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "cat",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "chicken",
+      "grass"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "cow",
+      "farm"
+    ],
+    "output": "poop"
+  },
+  {
+    "inputs": [
+      "drunk",
+      "time"
+    ],
+    "output": "hangover"
+  },
+  {
+    "inputs": [
+      "drunk",
+      "sleep"
+    ],
+    "output": "hangover"
+  },
+  {
+    "inputs": [
+      "hangover",
+      "coffee"
+    ],
+    "output": "human"
+  },
+  {
+    "inputs": [
+      "drunk",
+      "car"
+    ],
+    "output": "accident"
+  },
+  {
+    "inputs": [
+      "fertilizer",
+      "seed"
+    ],
+    "output": "crop"
+  },
+  {
+    "inputs": [
+      "fertilizer",
+      "farm"
+    ],
+    "output": "harvest"
+  },
+  {
+    "inputs": [
+      "poop",
+      "worm"
+    ],
+    "output": "compost"
+  },
+  {
+    "inputs": [
+      "elf",
+      "ring"
+    ],
+    "output": "gollum"
+  },
+  {
+    "inputs": [
+      "pirate",
+      "ship"
+    ],
+    "output": "black_pearl"
+  },
+  {
+    "inputs": [
+      "mad_scientist",
+      "lightning"
+    ],
+    "output": "frankenstein"
+  },
+  {
+    "inputs": [
+      "elf",
+      "forest"
+    ],
+    "output": "wood_elf"
+  },
+  {
+    "inputs": [
+      "wood_elf",
+      "bow"
+    ],
+    "output": "legolas"
+  },
+  {
+    "inputs": [
+      "dark_elf",
+      "spider"
+    ],
+    "output": "lolth"
+  },
+  {
+    "inputs": [
+      "mountain_of_poop",
+      "sun"
+    ],
+    "output": "fertilizer"
+  },
+  {
+    "inputs": [
+      "mountain_of_poop",
+      "time"
+    ],
+    "output": "fertilizer"
+  },
+  {
+    "inputs": [
+      "poop",
+      "gold"
+    ],
+    "output": "philosophers_stone"
+  },
+  {
+    "inputs": [
+      "courage",
+      "knight"
+    ],
+    "output": "paladin"
+  },
+  {
+    "inputs": [
+      "human",
+      "fear"
+    ],
+    "output": "courage"
+  },
+  {
+    "inputs": [
+      "human",
+      "lion"
+    ],
+    "output": "courage"
+  },
+  {
+    "inputs": [
+      "knight",
+      "dragon"
+    ],
+    "output": "courage"
+  },
+  {
+    "inputs": [
+      "warrior",
+      "wisdom"
+    ],
+    "output": "courage"
+  },
+  {
+    "inputs": [
+      "shadow",
+      "light"
+    ],
+    "output": "darkness"
+  },
+  {
+    "inputs": [
+      "human",
+      "darkness"
+    ],
+    "output": "fear"
+  },
+  {
+    "inputs": [
+      "human",
+      "monster"
+    ],
+    "output": "fear"
+  },
+  {
+    "inputs": [
+      "teenager",
+      "time"
+    ],
+    "output": "human"
+  },
+  {
+    "inputs": [
+      "wine",
+      "time"
+    ],
+    "output": "vinegar"
+  },
+  {
+    "inputs": [
+      "tree",
+      "time"
+    ],
+    "output": "forest"
+  },
+  {
+    "inputs": [
+      "stone",
+      "time"
+    ],
+    "output": "fossil"
+  },
+  {
+    "inputs": [
+      "bone",
+      "time"
+    ],
+    "output": "fossil"
+  },
+  {
+    "inputs": [
+      "civilization",
+      "time"
+    ],
+    "output": "empire"
+  },
+  {
+    "inputs": [
+      "empire",
+      "time"
+    ],
+    "output": "ruins"
+  },
+  {
+    "inputs": [
+      "ruins",
+      "time"
+    ],
+    "output": "ancient"
+  },
+  {
+    "inputs": [
+      "human",
+      "ruins"
+    ],
+    "output": "ancient"
+  },
+  {
+    "inputs": [
+      "star",
+      "time"
+    ],
+    "output": "red_giant"
+  },
+  {
+    "inputs": [
+      "ice",
+      "time"
+    ],
+    "output": "water"
+  },
+  {
+    "inputs": [
+      "glacier",
+      "time"
+    ],
+    "output": "lake"
+  },
+  {
+    "inputs": [
+      "bone",
+      "decay"
+    ],
+    "output": "skeleton"
+  },
+  {
+    "inputs": [
+      "human",
+      "desert"
+    ],
+    "output": "mummy"
+  },
+  {
+    "inputs": [
+      "skeleton",
+      "cloth"
+    ],
+    "output": "mummy"
+  },
+  {
+    "inputs": [
+      "scholar",
+      "time"
+    ],
+    "output": "sage"
+  },
+  {
+    "inputs": [
+      "philosopher",
+      "time"
+    ],
+    "output": "sage"
+  },
+  {
+    "inputs": [
+      "plant",
+      "time"
+    ],
+    "output": "decay"
+  },
+  {
+    "inputs": [
+      "wood",
+      "time"
+    ],
+    "output": "decay"
+  },
+  {
+    "inputs": [
+      "fossil",
+      "time"
+    ],
+    "output": "oil"
+  },
+  {
+    "inputs": [
+      "seed",
+      "time"
+    ],
+    "output": "tree"
+  },
+  {
+    "inputs": [
+      "village",
+      "time"
+    ],
+    "output": "city"
+  },
+  {
+    "inputs": [
+      "city",
+      "time"
+    ],
+    "output": "civilization"
+  },
+  {
+    "inputs": [
+      "iron",
+      "time"
+    ],
+    "output": "rust"
+  },
+  {
+    "inputs": [
+      "copper",
+      "time"
+    ],
+    "output": "rust"
+  },
+  {
+    "inputs": [
+      "metal",
+      "time"
+    ],
+    "output": "rust"
+  },
+  {
+    "inputs": [
+      "building",
+      "time"
+    ],
+    "output": "ruins"
+  },
+  {
+    "inputs": [
+      "forest",
+      "time"
+    ],
+    "output": "jungle"
+  },
+  {
+    "inputs": [
+      "grape",
+      "time"
+    ],
+    "output": "wine"
+  },
+  {
+    "inputs": [
+      "milk",
+      "time"
+    ],
+    "output": "cheese"
+  },
+  {
+    "inputs": [
+      "bread",
+      "time"
+    ],
+    "output": "mold"
+  },
+  {
+    "inputs": [
+      "red_giant",
+      "time"
+    ],
+    "output": "supernova"
+  },
+  {
+    "inputs": [
+      "lava",
+      "time"
+    ],
+    "output": "stone"
+  },
+  {
+    "inputs": [
+      "mud",
+      "time"
+    ],
+    "output": "clay"
+  },
+  {
+    "inputs": [
+      "sage",
+      "human"
+    ],
+    "output": "wisdom"
+  },
+  {
+    "inputs": [
+      "skeleton",
+      "magic"
+    ],
+    "output": "undead"
+  },
+  {
+    "inputs": [
+      "undead",
+      "magic"
+    ],
+    "output": "lich"
+  },
+  {
+    "inputs": [
+      "zombie",
+      "magic"
+    ],
+    "output": "undead"
+  },
+  {
+    "inputs": [
+      "ruins",
+      "magic"
+    ],
+    "output": "haunted_house"
+  },
+  {
+    "inputs": [
+      "ancient",
+      "stone"
+    ],
+    "output": "stonehenge"
+  },
+  {
+    "inputs": [
+      "monument",
+      "time"
+    ],
+    "output": "stonehenge"
+  },
+  {
+    "inputs": [
+      "sage",
+      "magic"
+    ],
+    "output": "wizard"
+  },
+  {
+    "inputs": [
+      "darkness",
+      "magic"
+    ],
+    "output": "warlock"
+  },
+  {
+    "inputs": [
+      "shadow",
+      "magic"
+    ],
+    "output": "warlock"
+  },
+  {
+    "inputs": [
+      "fear",
+      "darkness"
+    ],
+    "output": "nightmare"
+  },
+  {
+    "inputs": [
+      "dream",
+      "darkness"
+    ],
+    "output": "nightmare"
+  },
+  {
+    "inputs": [
+      "nightmare",
+      "human"
+    ],
+    "output": "madness"
+  },
+  {
+    "inputs": [
+      "madness",
+      "human"
+    ],
+    "output": "mad_man"
+  },
+  {
+    "inputs": [
+      "courage",
+      "darkness"
+    ],
+    "output": "hero"
+  },
+  {
+    "inputs": [
+      "fungi",
+      "time"
+    ],
+    "output": "mold"
+  },
+  {
+    "inputs": [
+      "diamond",
+      "ring"
+    ],
+    "output": "engagement_ring"
+  },
+  {
+    "inputs": [
+      "diamond",
+      "love"
+    ],
+    "output": "engagement_ring"
+  },
+  {
+    "inputs": [
+      "ruby",
+      "ring"
+    ],
+    "output": "magic_ring"
+  },
+  {
+    "inputs": [
+      "sapphire",
+      "ring"
+    ],
+    "output": "magic_ring"
+  },
+  {
+    "inputs": [
+      "emerald",
+      "ring"
+    ],
+    "output": "magic_ring"
+  },
+  {
+    "inputs": [
+      "amethyst",
+      "ring"
+    ],
+    "output": "magic_ring"
+  },
+  {
+    "inputs": [
+      "diamond",
+      "tool"
+    ],
+    "output": "diamond_sword"
+  },
+  {
+    "inputs": [
+      "diamond",
+      "sword"
+    ],
+    "output": "diamond_sword"
+  },
+  {
+    "inputs": [
+      "rice",
+      "water"
+    ],
+    "output": "sake"
+  },
+  {
+    "inputs": [
+      "rice",
+      "yeast"
+    ],
+    "output": "sake"
+  },
+  {
+    "inputs": [
+      "corn",
+      "fire"
+    ],
+    "output": "popcorn"
+  },
+  {
+    "inputs": [
+      "corn",
+      "heat"
+    ],
+    "output": "popcorn"
+  },
+  {
+    "inputs": [
+      "olive",
+      "pressure"
+    ],
+    "output": "olive_oil"
+  },
+  {
+    "inputs": [
+      "spice",
+      "soup"
+    ],
+    "output": "cuisine"
+  },
+  {
+    "inputs": [
+      "spice",
+      "meat"
+    ],
+    "output": "cuisine"
+  },
+  {
+    "inputs": [
+      "tea",
+      "spice"
+    ],
+    "output": "chai"
+  },
+  {
+    "inputs": [
+      "tea",
+      "milk"
+    ],
+    "output": "chai"
+  },
+  {
+    "inputs": [
+      "seaweed",
+      "fish"
+    ],
+    "output": "sushi"
+  },
+  {
+    "inputs": [
+      "seaweed",
+      "rice"
+    ],
+    "output": "sushi"
+  },
+  {
+    "inputs": [
+      "rose",
+      "love"
+    ],
+    "output": "romance"
+  },
+  {
+    "inputs": [
+      "lotus",
+      "water"
+    ],
+    "output": "zen"
+  },
+  {
+    "inputs": [
+      "pine",
+      "snow"
+    ],
+    "output": "christmas_tree"
+  },
+  {
+    "inputs": [
+      "pine",
+      "star"
+    ],
+    "output": "christmas_tree"
+  },
+  {
+    "inputs": [
+      "cactus",
+      "water"
+    ],
+    "output": "oasis"
+  },
+  {
+    "inputs": [
+      "cactus",
+      "oasis"
+    ],
+    "output": "oasis"
+  },
+  {
+    "inputs": [
+      "bear",
+      "bamboo"
+    ],
+    "output": "panda"
+  },
+  {
+    "inputs": [
+      "panda",
+      "bamboo"
+    ],
+    "output": "giant_panda"
+  },
+  {
+    "inputs": [
+      "panda",
+      "time"
+    ],
+    "output": "giant_panda"
+  },
+  {
+    "inputs": [
+      "tavern",
+      "drunk"
+    ],
+    "output": "bar_fight"
+  },
+  {
+    "inputs": [
+      "colosseum",
+      "warrior"
+    ],
+    "output": "gladiator"
+  },
+  {
+    "inputs": [
+      "colosseum",
+      "human"
+    ],
+    "output": "gladiator"
+  },
+  {
+    "inputs": [
+      "stable",
+      "warrior"
+    ],
+    "output": "cavalry"
+  },
+  {
+    "inputs": [
+      "stable",
+      "knight"
+    ],
+    "output": "cavalry"
+  },
+  {
+    "inputs": [
+      "lighthouse",
+      "ship"
+    ],
+    "output": "port"
+  },
+  {
+    "inputs": [
+      "ship",
+      "city"
+    ],
+    "output": "port"
+  },
+  {
+    "inputs": [
+      "villain",
+      "darkness"
+    ],
+    "output": "dark_lord"
+  },
+  {
+    "inputs": [
+      "villain",
+      "magic"
+    ],
+    "output": "dark_lord"
+  },
+  {
+    "inputs": [
+      "clock",
+      "magic"
+    ],
+    "output": "time_machine"
+  },
+  {
+    "inputs": [
+      "clock",
+      "lightning"
+    ],
+    "output": "time_machine"
+  },
+  {
+    "inputs": [
+      "human",
+      "sake"
+    ],
+    "output": "drunk"
+  },
+  {
+    "inputs": [
+      "villain",
+      "science"
+    ],
+    "output": "supervillain"
+  },
+  {
+    "inputs": [
+      "villain",
+      "nuclear"
+    ],
+    "output": "supervillain"
+  }
 ]

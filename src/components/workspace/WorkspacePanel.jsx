@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import DropZone from './DropZone.jsx'
 import { useGame } from '../../hooks/useGame.js'
-import { combineElements } from '../../engine/combineElements.js'
 import { elementsMap } from '../../data/index.js'
 import { clearGame } from '../../engine/persistence.js'
 
@@ -21,8 +20,7 @@ export default function WorkspacePanel() {
     setConfirming(false)
   }
 
-  const outputIds = slotA && slotB ? combineElements(slotA, slotB) : null
-  const outputEls = outputIds ? outputIds.map(id => elementsMap.get(id)).filter(Boolean) : []
+  const slotAEl = slotA ? elementsMap.get(slotA) : null
 
   function handleCombine() {
     if (slotA && slotB) {
@@ -45,35 +43,11 @@ export default function WorkspacePanel() {
         <DropZone slot="B" />
       </div>
 
-      {/* Output preview */}
-      {outputEls.length > 0 && (
-        <div key={outputIds.join(',')} className="combine-reveal flex flex-col items-center gap-2">
-          <span className="text-[#8b949e] text-sm">→</span>
-          <div className="flex gap-2 flex-wrap justify-center">
-            {outputEls.map(outputEl => (
-              <div
-                key={outputEl.id}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium"
-                style={{
-                  background: '#1c2128',
-                  border: `1px solid ${outputEl.color}66`,
-                  boxShadow: `0 0 16px ${outputEl.color}55`,
-                }}
-              >
-                <span className="text-xl">{outputEl.emoji}</span>
-                <span style={{ color: outputEl.color }}>{outputEl.name}</span>
-                {!state.discoveredIds.has(outputEl.id) && (
-                  <span className="text-xs text-[#fbbf24] ml-1 font-bold">✨ New!</span>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* No combo message */}
-      {slotA && slotB && outputEls.length === 0 && (
-        <p className="text-[#8b949e] text-sm">No combination found.</p>
+      {/* Lore */}
+      {slotA && !slotB && slotAEl?.lore && (
+        <p className="text-xs text-center max-w-xs leading-relaxed" style={{ color: '#8b949e', fontStyle: 'italic' }}>
+          {slotAEl.lore}
+        </p>
       )}
 
       {/* Buttons */}
@@ -83,14 +57,13 @@ export default function WorkspacePanel() {
             onClick={handleCombine}
             className="px-6 py-2 rounded-lg text-sm font-semibold transition-colors"
             style={{
-              background: outputEls.length ? '#1f6feb' : '#21262d',
-              color: outputEls.length ? '#fff' : '#8b949e',
-              border: '1px solid ' + (outputEls.length ? '#388bfd' : '#30363d'),
-              cursor: outputEls.length ? 'pointer' : 'default',
+              background: '#1f6feb',
+              color: '#fff',
+              border: '1px solid #388bfd',
+              cursor: 'pointer',
             }}
-            disabled={outputEls.length === 0}
           >
-            Combine
+            Combine!
           </button>
         )}
         {(slotA || slotB) && (
